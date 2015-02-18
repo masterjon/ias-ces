@@ -1,0 +1,65 @@
+{% extends "layout.html" %}
+{% block slider %}
+  <!-- Indicators -->
+  {# <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+  </ol> #}
+  <!-- Wrapper for slides -->
+  <div  class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="static/img/re-enrollment/banner-admission-ias-ces.jpg" alt=" Caption 1">
+      <div class="carousel-caption">
+      </div>
+    </div>
+   
+  </div>
+{% endblock  %}
+{% block content %}
+<div class="row body">
+    {% include 'sidebar-admissions.html' %}
+    <div class="col-sm-9 col-md-10 right-side">
+        <div class="row">
+            <div class="col-sm-12 page-title text-center">
+                <h2>{{page.title}}</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-10 col-sm-offset-1 text-center">
+                 <p>1. Update the application form if any personal information has changed.</p>
+               
+            </div>
+        </div>
+        <div class="row lightgray-bg">
+            <div class="col-sm-4 col-sm-offset-4 text-center">
+                
+                <a href="#"><img class="margin-15" width="200" src="static/img/admissions/pdf-download.png" alt=""></a>
+                <h3 class="">{{page.application}}</h3>
+            </div>
+        </div>
+        <div class="row">
+          <div class="col-sm- text-center margin-top-15 margin-bottom-15">
+            <p>2. Pay the Registration Fee with any of the next alternatives.</p>
+          </div>
+        </div>
+        <div class="row lightgray-bg">
+          <div class="col-sm-6">
+            <a href="static/pdf/Annie-CES.pdf" class="no-decoration" target="_blank"><p><img class="margin-15" src="static/img/parents-handbook/pdf-download.png" alt="" width="200">KINDERGARTEN / PRIMARY</p></a>
+          </div>
+          <div class="col-sm-6">
+           <a href="static/pdf/Annie-IAS.pdf" class="no-decoration" target="_blank"> <p><img class="margin-15" src="static/img/parents-handbook/pdf-download.png" alt="" width="200">MIDLLE / HIGHSCHOOL</p></a>
+            
+          </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+{% block js %}
+<script type="text/javascript">
+  jQuery(document).ready(function($) {
+    $("li.admissions").addClass("active");
+    $("li.re-enrollement").addClass("active");
+    
+  });
+</script>
+{% endblock  %}

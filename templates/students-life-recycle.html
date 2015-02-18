@@ -1,0 +1,28 @@
+{% extends "layout.html" %}
+{% block content %}
+<div class="row body">
+    {% include 'sidebar-students-life.html'  %}
+    <div class="col-sm-9 col-md-10 right-side">
+        <div class="row">
+            <div class="col-sm-12 page-title text-center">
+                <h2>{{page.title}}</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-10 col-sm-offset-1 text-center">
+                <p class="text-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur aliquid quidem officia quas, expedita amet nihil quibusdam veniam hic earum! Repellendus aut harum hic doloribus odio magnam quod assumenda impedit!</p>
+                <img src="static/img/student-life/recicle-pic-ias-ces.jpg" alt="">
+            </div>
+        </div>
+        
+    </div>
+</div>
+{% endblock %}
+{% block js %}
+<script type="text/javascript">
+  jQuery(document).ready(function($) {
+    $("li.student-life").addClass("active");
+    $("li.life-recycle").addClass("active");
+  });
+</script>
+{% endblock  %}

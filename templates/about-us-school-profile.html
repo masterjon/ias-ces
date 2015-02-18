@@ -1,0 +1,206 @@
+{% extends "layout.html" %}
+{% block slider %}
+  <!-- Indicators -->
+  {# <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+  </ol> #}
+  <!-- Wrapper for slides -->
+  <div id="carousel" class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="static/img/school-profile/banner-ias-ces3.jpg" alt=" Caption 1">
+      <div class="carousel-caption">
+      </div>
+    </div>
+   
+  </div>
+{% endblock  %}
+
+{% block content %}
+<div class="row body">
+    {% include 'sidebar-about-us.html' %}
+    <div class="col-sm-9 col-md-10 right-side">
+        <div class="row">
+            <div class="col-sm-12 page-title text-center">
+                <h2>{{page.title}}</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 ">
+                {{page.content|raw}}
+                <div class="row">
+                    <div class="col-sm-4 ">
+                        <ul>
+                            <h4>United States</h4>
+                            <li>Abilene Christian University</li>
+                            <li>Art Institute of New York City</li>
+                            <li>California State University</li>
+                            <li>Colorado State University</li>
+                            <li>Eckerd College</li>
+                            <li>Florida International University</li>
+                            <li>Florida State University</li>
+                            <li>Full Sail University</li>
+                            <li>Goucher College</li>
+                            <li>Gustavus Adolphus College</li>
+                            <li>Jacksonville University</li>
+                            <li>Henderson State University</li>
+                            <li>Kenyon College</li>
+                            <li>Lake Forest College</li>
+                            <li>Louisiana College</li>
+                            <li>Loyola University–Chicago</li>
+                            <li>Manhattanville College</li>
+                            <li>Missouri Valley College</li>
+                            <li>Oral Roberts University</li>
+                            <li>Ouachita Baptist College</li>
+                            <li>Palomar College</li>
+                            <li>Pratt Institute</li>
+                            <li>Queens University of Charlotte</li>
+                            <li>Santa Fe Community College</li>
+                            <li>Sarah Lawrence College</li>
+                            <li>Southern Methodist University</li>
+                            <li>St. Andrews Presbyterian College</li>
+                            <li>University of Bridgeport</li>
+                            <li>University of Central Florida</li>
+                            <li>University of Chicago</li>
+                            <li>University of Colorado</li>
+                            <li>University of Nevada, Reno</li>
+                            <li>University of North Carolina,</li>
+                            <li>Asheville</li>
+                            <li>University of Texas El Paso</li>
+                            <li>Vassar College</li>
+                            <li>Warren Wilson College</li>
+                            <li>Washington College</li>
+                        </ul>
+                    </div>
+
+                    <div class="col-sm-4">
+                        <ul>
+                            <h4>Canada</h4>
+                            <li>Concordia University</li>
+                            <li>George Brown College</li>
+                            <li>McGill University</li>
+                            <li>Queens University</li>
+                            <li>University of British Columbia </li>
+                            <li>University of Toronto</li>
+                        </ul>
+                        <ul>
+                            <h4>Other Countries</h4>
+                            <li>Centre International de Valbonne (France)</li>
+                            <li>Complutense Universidad de Madrid  (Spain)</li>
+                            <li>Notre Dame University (Lebanon)</li>
+                            <li>Prague College (Czech Republic)</li>
+                            <li>Schiller International University (Germany)</li>
+                            <li>Sorbonne University  (France)</li>
+                            <li>Universidad del Salvador (Argentina)</li>
+                        </ul>
+                        <ul>
+                            <h4>England</h4>
+                            <li>Kings College</li>
+                            <li>Regents College</li>
+                            <li>University of Kent</li>
+                            <li>University of Durham</li>
+                            <li>University of Sussex</li>
+                        </ul>
+
+
+                    </div>
+                    <div class="col-sm-4">
+                        
+                        <ul>
+                            <h4>Mexico</h4>
+                            <li>CEDIM Monterrey</li>
+                            <li>CIDE Mexico</li>
+                            <li>Centro Universitario</li>
+                            <li>Valladolid</li>
+                            <li>Escuela Libre de Derecho</li>
+                            <li>Puebla</li>
+                            <li>ITAM Mexico</li>
+                            <li>ITESO Guadalajarra</li>
+                            <li>Tecnológico de Monterrey</li>
+                            <li>UNAM Mexico</li>
+                            <li>Universidad Anáhuac (D.F., Cancun)</li>
+                            <li>Universidad Autónoma Mérida</li>
+                            <li>Universidad de las Américas Puebla</li>
+                            <li>Universidad del Caribe</li>
+                            <li>Universidad del Mayab</li>
+                            <li>Universidad de Monterrey</li>
+                            <li>Universidad Iberoamericana</li>
+                            <li>Universidad La Salle</li>
+                            <li>Universidad Panamericana</li>
+                            <li>Universidad Valle de México</li>
+                            <li>Universidad Veracruzana</li>
+                        </ul>
+                    </div>
+
+                </div>
+                {{page.content2|raw}}
+            </div>
+        </div>
+        
+
+
+
+
+        <div id="main_area">
+            <!-- Slider -->
+            <div class="row">
+                <div class="col-xs-12" id="slider">
+                    <!-- Top part of the slider -->
+                    <div class="row">
+                        <div class="col-sm-12" id="carousel-bounding-box">
+                            <div class="carousel slide" id="myCarousel">
+                                <!-- Carousel items -->
+                                <div class="carousel-inner">
+                                    <div class="active item" data-slide-number="0">
+                                    <img src="static/img/school-profile/slide5-ias-ces.jpg"></div>
+
+                                    <div class="item" data-slide-number="1">
+                                    <img src="static/img/school-profile/slide6-ias-ces.jpg"></div>
+
+                                    <div class="item" data-slide-number="2">
+                                    <img src="static/img/school-profile/slide7-ias-ces.jpg"></div>
+
+                                </div><!-- Carousel nav -->
+                                <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                                    <span class="glyphicon glyphicon-chevron-left"></span>                                       
+                                </a>
+                                <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                                    <span class="glyphicon glyphicon-chevron-right"></span>                                       
+                                </a>                                
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!--/Slider-->
+
+            <div class="row hidden-xs" id="slider-thumbs">
+                    <!-- Bottom switcher of slider -->
+                    <ul class="hide-bullets">
+                        <li class="col-sm-2 col-sm-offset-3">
+                            <a class="thumbnail" id="carousel-selector-0"><img src="static/img/school-profile/thumb5-ias-ces.jpg"></a>
+                        </li>
+
+                        <li class="col-sm-2">
+                            <a class="thumbnail" id="carousel-selector-1"><img src="static/img/school-profile/thumb6-ias-ces.jpg"></a>
+                        </li>
+
+                        <li class="col-sm-2">
+                            <a class="thumbnail" id="carousel-selector-2"><img src="static/img/school-profile/thumb7-ias-ces.jpg"></a>
+                        </li>
+                    </ul>                 
+            </div>
+        </div>
+
+
+    </div>
+</div>
+{% endblock %}
+{% block js %}
+<script type="text/javascript">
+  jQuery(document).ready(function($) {
+    $("li.about-us").addClass("active");
+    $("li.school-profile").addClass("active");
+    
+  });
+</script>
+{% endblock  %}

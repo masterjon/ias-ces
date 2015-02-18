@@ -1,0 +1,108 @@
+{% extends "layout.html" %}
+{% block slider %}
+  <!-- Indicators -->
+  {# <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+  </ol> #}
+  <!-- Wrapper for slides -->
+  <div  class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="static/img/about-us/banner-ias-ces.jpg" alt=" Caption 1">
+      <div class="carousel-caption">
+      </div>
+    </div>
+   
+  </div>
+{% endblock  %}
+{% block content %}
+<div class="row body">
+    {% include 'sidebar-about-us.html' %}
+    <div class="col-sm-9 col-md-10 right-side">
+        <div class="row">
+            <div class="col-sm-12 page-title text-center">
+                <h2>{{page.title}}</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 text-center">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum qui ducimus, voluptatem molestias quibusdam deleniti autem nemo rem illo inventore tempore quod cupiditate earum deserunt, sint veniam. Tempora, autem, et!
+                </p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius in quaerat ipsa earum nobis, quam animi nulla corrupti iure quasi odit provident, inventore aliquam, quae molestiae corporis quia nam consequuntur.</p>
+            </div>
+        </div>
+        
+
+
+
+
+        <div id="main_area">
+            <!-- Slider -->
+            <div class="row">
+                <div class="col-xs-12" id="slider">
+                    <!-- Top part of the slider -->
+                    <div class="row">
+                        <div class="col-sm-12" id="carousel-bounding-box">
+                            <div class="carousel slide" id="myCarousel">
+                                <!-- Carousel items -->
+                                <div class="carousel-inner">
+                                    <div class="active item" data-slide-number="0">
+                                    <img src="static/img/about-us/slide1-ias-ces.jpg"></div>
+
+                                    <div class="item" data-slide-number="1">
+                                    <img src="static/img/about-us/slide2-ias-ces.jpg"></div>
+
+                                    <div class="item" data-slide-number="2">
+                                    <img src="static/img/about-us/slide3-ias-ces.jpg"></div>
+
+                                    <div class="item" data-slide-number="3">
+                                    <img src="static/img/about-us/slide4-ias-ces.jpg"></div>
+
+                                </div><!-- Carousel nav -->
+                                <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                                    <span class="glyphicon glyphicon-chevron-left"></span>                                       
+                                </a>
+                                <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                                    <span class="glyphicon glyphicon-chevron-right"></span>                                       
+                                </a>                                
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!--/Slider-->
+
+            <div class="row hidden-xs" id="slider-thumbs">
+                    <!-- Bottom switcher of slider -->
+                    <ul class="hide-bullets">
+                        <li class="col-sm-2 col-sm-offset-2">
+                            <a class="thumbnail" id="carousel-selector-0"><img src="static/img/about-us/thumb1-ias-ces.jpg"></a>
+                        </li>
+
+                        <li class="col-sm-2">
+                            <a class="thumbnail" id="carousel-selector-1"><img src="static/img/about-us/thumb2-ias-ces.jpg"></a>
+                        </li>
+
+                        <li class="col-sm-2">
+                            <a class="thumbnail" id="carousel-selector-2"><img src="static/img/about-us/thumb3-ias-ces.jpg"></a>
+                        </li>
+
+                        <li class="col-sm-2">
+                            <a class="thumbnail" id="carousel-selector-3"><img src="static/img/about-us/thumb4-ias-ces.jpg"></a>
+                        </li>
+
+                        
+                    </ul>                 
+            </div>
+        </div>
+
+
+    </div>
+</div>
+{% endblock %}
+{% block js %}
+<script type="text/javascript">
+  jQuery(document).ready(function($) {
+    $("li.about-us").addClass("active");
+  });
+</script>
+{% endblock  %}

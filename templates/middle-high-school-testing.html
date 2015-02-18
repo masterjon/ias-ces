@@ -1,0 +1,38 @@
+{% extends "layout.html" %}
+{% block content %}
+<div class="row body">
+    {% include 'sidebar-middle-high-school.html' %}
+    <div class="col-sm-9 col-md-10 right-side">
+        <div class="row">
+            <div class="col-sm-12 page-title text-center">
+                <h2>Testing</h2>
+            </div>
+        </div>
+       <div class="row">
+            <div class="col-sm-10 col-sm-offset-1">
+                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut leo non odio cursus luctus. Cras interdum nunc ex, eu dapibus arcu rhoncus sit amet. Sed non rutrum velit. Nulla facilisis nec orci eget aliquet. Duis ut sollicitudin tellus, consequat finibus odio. Vestibulum molestie felis quam, vitae varius sem pulvinar non. Aliquam arcu diam, varius non metus sit amet, pellentesque bibendum neque. Curabitur vitae gravida dui.</p>
+
+                <p>Mauris mauris orci, gravida laoreet dolor eu, malesuada sagittis ex. Nulla aliquam tellus leo, vulputate suscipit libero consequat vel. Mauris mattis commodo egestas. Suspendisse at nibh rutrum, convallis nulla vel, auctor enim. Sed in elit nulla. Nam blandit dolor a lorem viverra scelerisque a nec sapien. Ut tincidunt, eros nec commodo facilisis, sapien nibh sodales arcu, eu efficitur ipsum odio in justo. Cras bibendum sapien at volutpat auctor. Quisque dictum pretium eros quis porta. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In dui eros, pretium non varius nec, dapibus id ante.</p>
+
+                <p>Mauris mauris orci, gravida laoreet dolor eu, malesuada sagittis ex. Nulla aliquam tellus leo, vulputate suscipit libero consequat vel. Mauris mattis commodo egestas. Suspendisse at nibh rutrum, convallis nulla vel, auctor enim. Sed in elit nulla. Nam blandit dolor a lorem viverra scelerisque a nec sapien. Ut tincidunt, eros nec commodo facilisis, sapien nibh sodales arcu, eu efficitur ipsum odio in justo. Cras bibendum sapien at volutpat auctor. Quisque dictum pretium eros quis porta. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In dui eros, pretium non varius nec, dapibus id ante.</p>
+
+                <p>Mauris mauris orci, gravida laoreet dolor eu, malesuada sagittis ex. Nulla aliquam tellus leo, vulputate suscipit libero consequat vel. Mauris mattis commodo egestas. Suspendisse at nibh rutrum, convallis nulla vel, auctor enim. Sed in elit nulla. Nam blandit dolor a lorem viverra scelerisque a nec sapien. Ut tincidunt, eros nec commodo facilisis, sapien nibh sodales arcu, eu efficitur ipsum odio in justo. Cras bibendum sapien at volutpat auctor. Quisque dictum pretium eros quis porta. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In dui eros, pretium non varius nec, dapibus id ante.</p>
+
+                <p>Mauris mauris orci, gravida laoreet dolor eu, malesuada sagittis ex. Nulla aliquam tellus leo, vulputate suscipit libero consequat vel. Mauris mattis commodo egestas. Suspendisse at nibh rutrum, convallis nulla vel, auctor enim. Sed in elit nulla. Nam blandit dolor a lorem viverra scelerisque a nec sapien. Ut tincidunt, eros nec commodo facilisis, sapien nibh sodales arcu, eu efficitur ipsum odio in justo. Cras bibendum sapien at volutpat auctor. Quisque dictum pretium eros quis porta. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In dui eros, pretium non varius nec, dapibus id ante.</p>
+               
+            </div>
+        </div>
+        
+    </div>
+</div>
+{% endblock %}
+{% block js %}
+<script type="text/javascript">
+  jQuery(document).ready(function($) {
+    $("li.schools").addClass("active");
+    $("li.middle-high-school").addClass("active");
+    $("li.middle-guidance>ul").addClass("in");
+    $("li.middle-testing").addClass("active");
+  });
+</script>
+{% endblock  %}

@@ -1,0 +1,108 @@
+{% extends "layout.html" %}
+{% block content %}
+<div class="row body">
+    {% include 'sidebar-students-life.html' %}
+    <div class="col-sm-9 col-md-10 right-side">
+        <div class="row">
+            <div class="col-sm-12 page-title text-center">
+                <h2>{{page.title}}</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                {{page.content|raw}}
+            </div>
+        </div>
+        
+
+
+
+
+        <div id="main_area">
+            <!-- Slider -->
+            <div class="row">
+                <div class="col-xs-12" id="slider">
+                    <!-- Top part of the slider -->
+                    <div class="row">
+                        <div class="col-sm-12" id="carousel-bounding-box">
+                            <div class="carousel slide" id="myCarousel">
+                                <!-- Carousel items -->
+                                <div class="carousel-inner">
+                                    <div class="active item" data-slide-number="0">
+                                    <img src="static/img/library/slide8-ias-ces.jpg"></div>
+
+                                    <div class="item" data-slide-number="1">
+                                    <img src="static/img/library/slide9-ias-ces.jpg"></div>
+
+                                    <div class="item" data-slide-number="2">
+                                    <img src="static/img/library/slide10-ias-ces.jpg"></div>
+
+                                    <div class="item" data-slide-number="3">
+                                    <img src="static/img/library/slide11-ias-ces.jpg"></div>
+
+                                    <div class="item" data-slide-number="4">
+                                    <img src="static/img/library/slide12-ias-ces.jpg"></div>
+
+                                    <div class="item" data-slide-number="5">
+                                    <img src="static/img/library/slide13-ias-ces.jpg"></div>
+
+                                    <div class="item" data-slide-number="6">
+                                    <img src="static/img/library/slide14-ias-ces.jpg"></div>
+                                </div><!-- Carousel nav -->
+                                <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                                    <span class="glyphicon glyphicon-chevron-left"></span>                                       
+                                </a>
+                                <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                                    <span class="glyphicon glyphicon-chevron-right"></span>                                       
+                                </a>                                
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!--/Slider-->
+
+            <div class="row hidden-xs" id="slider-thumbs">
+                    <!-- Bottom switcher of slider -->
+                    <ul class="hide-bullets">
+                        <li class="col-sm-2">
+                            <a class="thumbnail" id="carousel-selector-0"><img src="static/img/library/thumb8-ias-ces.jpg"></a>
+                        </li>
+
+                        <li class="col-sm-2">
+                            <a class="thumbnail" id="carousel-selector-1"><img src="static/img/library/thumb9-ias-ces.jpg"></a>
+                        </li>
+
+                        <li class="col-sm-2">
+                            <a class="thumbnail" id="carousel-selector-2"><img src="static/img/library/thumb10-ias-ces.jpg"></a>
+                        </li>
+
+                        <li class="col-sm-2">
+                            <a class="thumbnail" id="carousel-selector-3"><img src="static/img/library/thumb11-ias-ces.jpg"></a>
+                        </li>
+
+                        <li class="col-sm-2">
+                            <a class="thumbnail" id="carousel-selector-4"><img src="static/img/library/thumb12-ias-ces.jpg"></a>
+                        </li>
+
+                        <li class="col-sm-2">
+                            <a class="thumbnail" id="carousel-selector-5"><img src="static/img/library/thumb13-ias-ces.jpg"></a>
+                        </li>
+                        <li class="col-sm-2">
+                            <a class="thumbnail" id="carousel-selector-6"><img src="static/img/library/thumb14-ias-ces.jpg"></a>
+                        </li>
+                    </ul>                 
+            </div>
+        </div>
+
+
+    </div>
+</div>
+{% endblock %}
+{% block js %}
+<script type="text/javascript">
+  jQuery(document).ready(function($) {
+    $("li.student-life").addClass("active");
+    $("li.life-library").addClass("active");
+  });
+</script>
+{% endblock  %}
