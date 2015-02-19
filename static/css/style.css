@@ -300,6 +300,26 @@ border: 2px solid #e71f25;
     width: 100%;
 }
 
+.events-carousel{
+   border: none!important;
+   margin-bottom: 20px;
+}
+
+#slider-thumbs{
+    padding: 10px;
+}
+
+.div-thumbnail{
+    width: 149px;
+    height: 105px; 
+    margin:0 5px; 
+    float:left
+}
+
+.div-thumbnail a{
+    border:none!important;
+    margin-top: 0!important;}
+
 /* MENU-LEFT
 -------------------------- */
 /* layout */

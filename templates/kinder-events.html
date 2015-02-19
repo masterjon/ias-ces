@@ -15,7 +15,7 @@
                         <!-- Top part of the slider -->
                         <div class="row">
                             <div class="col-sm-8" id="carousel-bounding-box">
-                                <div class="carousel slide" id="myCarousel">
+                                <div class="carousel slide events-carousel" id="myCarousel">
                                     <!-- Carousel items -->
                                     <div class="carousel-inner">
                                         {% for event in page.events %}
@@ -52,17 +52,14 @@
                     </div>
                 </div><!--/Slider-->
 
-                <div class="row hidden-xs text-center" id="slider-thumbs">
+                <div class="row hidden-xs" id="slider-thumbs">
                         <!-- Bottom switcher of slider -->
-                        <ul class="hide-bullets text-center">
+                        <ul class="hide-bullets">
                             {% for event in page.events %}
-                                <li class="text-center">
-                                    <div class="div-thumnail"><a class="thumbnail" id="carousel-selector-{{loop.index0}}" ><img onmouseout="$(this).attr('src','{{event.thumbnail}}')" onmouseover="$(this).attr('src','{{event.thumbnailh}}')" src="{{event.thumbnail}}" rel="{{event.thumbnail}}"></a></div>
+                                <li class="">
+                                    <div class="div-thumbnail"><a class="thumbnail" id="carousel-selector-{{loop.index0}}" ><img onmouseout="$(this).attr('src','{{event.thumbnail}}')" onmouseover="$(this).attr('src','{{event.thumbnailh}}')" src="{{event.thumbnail}}" rel="{{event.thumbnail}}"></a></div>
                                 </li>
                             {% endfor %}
-                            
-
-
                         </ul>                 
                 </div>
         </div>        
