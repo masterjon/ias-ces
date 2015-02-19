@@ -5,278 +5,33 @@
     <div class="col-sm-9 col-md-10 right-side">
         <div class="row">
             <div class="col-sm-12 page-title text-center">
-                <h2>Teacher Site</h2>
+                <h2>{{page.title}}</h2>
             </div>
         </div>
-                <div class="row lightgray-bg">
-            <div class="col-sm-9">
-                <div class="row">
-                    <div class="col-sm-4">
-                         <div class="margin-15"><img class="border-blue" src="static/img/primary-teachers/alfredo-guemez-teacher-ces.jpg"></div>
-                    </div>
-                    <div class="col-sm-4 col-sm-offset-2 text-center">
-                        <h2 class="text-big uppercase"><span class="icon-record blue-color"></span>Jon Doe</h2>
-                        <h4>KI &amp; KII English</h4>
-                    </div>
-                </div>   
-            </div>
-            <div class="col-sm-3 margin-top-15 border-left text-right">
-                 <div class="margin-15"><img src="http://placehold.it/150&text=Website"></div>
+        <div class="row lightgray-bg">    
+            {% for teacher in page.teachers %}
+                <div class="col-sm-9">
+                    <div class="row">
+                        <div class="col-sm-4">
+                             <div class="margin-15"><img class="border-blue" src="{{teacher.image}}"></div>
+                        </div>
+                        <div class="col-sm-8  text-center">
+                            <h2 class="text-big uppercase"><span class="icon-record blue-color"></span>{{teacher.name}}</h2>
+                            <h4>{{teacher.position}}</h4>
+                        </div>
+                    </div>      
+                </div>
+                <div class="col-sm-3 margin-top-15 border-left text-center">
+                    {% if teacher.link %}
+                        <div class="margin-15"><a href="{{teacher.link}}" target="_blank"><img width="150" src="static/img/kinder-teachers/icon-site-ias-ces.png"></a></div>
+                    {% endif %}
+                     
 
-            </div>
-            <div class="col-sm-10 col-sm-offset-1 text-center ">
-                <hr>
-            </div>
-            <div class="col-sm-9">
-                <div class="row">
-                    <div class="col-sm-4">
-                         <div class="margin-15"><img class="border-blue" src="static/img/primary-teachers/analuisa-leyva-teacher-ces.jpg"></div>
-                    </div>
-                    <div class="col-sm-4 col-sm-offset-2 text-center">
-                        <h2 class="text-big uppercase"><span class="icon-record blue-color"></span>Jon Doe</h2>
-                        <h4>KI &amp; KII English</h4>
-                    </div>
-                </div>  
-            </div>
-            <div class="col-sm-3 margin-top-15 border-left text-right">
-                 <div class="margin-15"><img src="http://placehold.it/150&text=Website"></div>
-
-            </div>
-            <div class="col-sm-10 col-sm-offset-1 text-center ">
-                <hr>
-            </div>
-            <div class="col-sm-9">
-                <div class="row">
-                    <div class="col-sm-4">
-                         <div class="margin-15"><img class="border-blue" src="static/img/primary-teachers/ana-luz-lopez-teacher-ces.jpg"></div>
-                    </div>
-                    <div class="col-sm-4 col-sm-offset-2 text-center">
-                        <h2 class="text-big uppercase"><span class="icon-record blue-color"></span>Jon Doe</h2>
-                        <h4>KI &amp; KII English</h4>
-                    </div>
-                </div>    
-            </div>
-            <div class="col-sm-3 margin-top-15 border-left text-right">
-                 <div class="margin-15"><img src="http://placehold.it/150&text=Website"></div>
-
-            </div>
-            <div class="col-sm-10 col-sm-offset-1 text-center ">
-                <hr>
-            </div>
-            <div class="col-sm-9">
-                <div class="row">
-                    <div class="col-sm-4">
-                         <div class="margin-15"><img class="border-blue" src="static/img/primary-teachers/annia-mattos-tech-integration-ces.jpg"></div>
-                    </div>
-                    <div class="col-sm-4 col-sm-offset-2 text-center">
-                        <h2 class="text-big uppercase"><span class="icon-record blue-color"></span>Jon Doe</h2>
-                        <h4>KI &amp; KII English</h4>
-                    </div>
-                </div>    
-            </div>
-            <div class="col-sm-3 margin-top-15 border-left text-right">
-                 <div class="margin-15"><img src="http://placehold.it/150&text=Website"></div>
-
-            </div>
-            <div class="col-sm-10 col-sm-offset-1 text-center ">
-                <hr>
-            </div>
-            <div class="col-sm-9">
-                <div class="row">
-                    <div class="col-sm-4">
-                         <div class="margin-15"><img class="border-blue" src="static/img/primary-teachers/gabriela-mazariegos-assistant.jpg"></div>
-                    </div>
-                    <div class="col-sm-4 col-sm-offset-2 text-center">
-                        <h2 class="text-big uppercase"><span class="icon-record blue-color"></span>Jon Doe</h2>
-                        <h4>KI &amp; KII English</h4>
-                    </div>
-                </div>    
-            </div>
-            <div class="col-sm-3 margin-top-15 border-left text-right">
-                 <div class="margin-15"><img src="http://placehold.it/150&text=Website"></div>
-
-            </div>
-            <div class="col-sm-10 col-sm-offset-1 text-center ">
-                <hr>
-            </div>
-            <div class="col-sm-9">
-                <div class="row">
-                    <div class="col-sm-4">
-                         <div class="margin-15"><img class="border-blue" src="static/img/primary-teachers/gisela-rangel-librarian-ces.jpg"></div>
-                    </div>
-                    <div class="col-sm-4 col-sm-offset-2 text-center">
-                        <h2 class="text-big uppercase"><span class="icon-record blue-color"></span>Jon Doe</h2>
-                        <h4>KI &amp; KII English</h4>
-                    </div>
-                </div>    
-            </div>
-            <div class="col-sm-3 margin-top-15 border-left text-right">
-                 <div class="margin-15"><img src="http://placehold.it/150&text=Website"></div>
-
-            </div>
-            <div class="col-sm-10 col-sm-offset-1 text-center ">
-                <hr>
-            </div>
-            <div class="col-sm-9">
-                <div class="row">
-                    <div class="col-sm-4">
-                         <div class="margin-15"><img class="border-blue" src="static/img/primary-teachers/juan-cetina-teacher-ces.jpg"></div>
-                    </div>
-                    <div class="col-sm-4 col-sm-offset-2 text-center">
-                        <h2 class="text-big uppercase"><span class="icon-record blue-color"></span>Jon Doe</h2>
-                        <h4>KI &amp; KII English</h4>
-                    </div>
-                </div>    
-            </div>
-            <div class="col-sm-3 margin-top-15 border-left text-right">
-                 <div class="margin-15"><img src="http://placehold.it/150&text=Website"></div>
-
-            </div>
-            <div class="col-sm-10 col-sm-offset-1 text-center ">
-                <hr>
-            </div>
-            <div class="col-sm-9">
-                <div class="row">
-                    <div class="col-sm-4">
-                         <div class="margin-15"><img class="border-blue" src="static/img/primary-teachers/juan-pedro-teacher.jpg"></div>
-                    </div>
-                    <div class="col-sm-4 col-sm-offset-2 text-center">
-                        <h2 class="text-big uppercase"><span class="icon-record blue-color"></span>Jon Doe</h2>
-                        <h4>KI &amp; KII English</h4>
-                    </div>
-                </div>    
-            </div>
-            <div class="col-sm-3 margin-top-15 border-left text-right">
-                 <div class="margin-15"><img src="http://placehold.it/150&text=Website"></div>
-
-            </div>
-            <div class="col-sm-10 col-sm-offset-1 text-center ">
-                <hr>
-            </div>
-            <div class="col-sm-9">
-                <div class="row">
-                    <div class="col-sm-4">
-                         <div class="margin-15"><img class="border-blue" src="static/img/primary-teachers/lucero-diaz-assistant.jpg"></div>
-                    </div>
-                    <div class="col-sm-4 col-sm-offset-2 text-center">
-                        <h2 class="text-big uppercase"><span class="icon-record blue-color"></span>Jon Doe</h2>
-                        <h4>KI &amp; KII English</h4>
-                    </div>
-                </div>    
-            </div>
-            <div class="col-sm-3 margin-top-15 border-left text-right">
-                 <div class="margin-15"><img src="http://placehold.it/150&text=Website"></div>
-
-            </div>
-            <div class="col-sm-10 col-sm-offset-1 text-center ">
-                <hr>
-            </div>
-            <div class="col-sm-9">
-                <div class="row">
-                    <div class="col-sm-4">
-                         <div class="margin-15"><img class="border-blue" src="static/img/primary-teachers/manuel-perez-tacher-ces.jpg"></div>
-                    </div>
-                    <div class="col-sm-4 col-sm-offset-2 text-center">
-                        <h2 class="text-big uppercase"><span class="icon-record blue-color"></span>Jon Doe</h2>
-                        <h4>KI &amp; KII English</h4>
-                    </div>
-                </div>    
-            </div>
-            <div class="col-sm-3 margin-top-15 border-left text-right">
-                 <div class="margin-15"><img src="http://placehold.it/150&text=Website"></div>
-
-            </div>
-            <div class="col-sm-10 col-sm-offset-1 text-center ">
-                <hr>
-            </div>
-            <div class="col-sm-9">
-                <div class="row">
-                    <div class="col-sm-4">
-                         <div class="margin-15"><img class="border-blue" src="static/img/primary-teachers/maria-concepcion-teacher-ces.jpg"></div>
-                    </div>
-                    <div class="col-sm-4 col-sm-offset-2 text-center">
-                        <h2 class="text-big uppercase"><span class="icon-record blue-color"></span>Jon Doe</h2>
-                        <h4>KI &amp; KII English</h4>
-                    </div>
-                </div>    
-            </div>
-            <div class="col-sm-3 margin-top-15 border-left text-right">
-                 <div class="margin-15"><img src="http://placehold.it/150&text=Website"></div>
-
-            </div>
-            <div class="col-sm-10 col-sm-offset-1 text-center ">
-                <hr>
-            </div>
-            <div class="col-sm-9">
-                <div class="row">
-                    <div class="col-sm-4">
-                         <div class="margin-15"><img class="border-blue" src="static/img/primary-teachers/maria-jesus-teacher-ces.jpg"></div>
-                    </div>
-                    <div class="col-sm-4 col-sm-offset-2 text-center">
-                        <h2 class="text-big uppercase"><span class="icon-record blue-color"></span>Jon Doe</h2>
-                        <h4>KI &amp; KII English</h4>
-                    </div>
-                </div>    
-            </div>
-            <div class="col-sm-3 margin-top-15 border-left text-right">
-                 <div class="margin-15"><img src="http://placehold.it/150&text=Website"></div>
-
-            </div>
-            <div class="col-sm-10 col-sm-offset-1 text-center ">
-                <hr>
-            </div>
-            <div class="col-sm-9">
-                <div class="row">
-                    <div class="col-sm-4">
-                         <div class="margin-15"><img class="border-blue" src="static/img/primary-teachers/nicte-montes-teacher-ces.jpg"></div>
-                    </div>
-                    <div class="col-sm-4 col-sm-offset-2 text-center">
-                        <h2 class="text-big uppercase"><span class="icon-record blue-color"></span>Jon Doe</h2>
-                        <h4>KI &amp; KII English</h4>
-                    </div>
-                </div>    
-            </div>
-            <div class="col-sm-3 margin-top-15 border-left text-right">
-                 <div class="margin-15"><img src="http://placehold.it/150&text=Website"></div>
-
-            </div>
-            <div class="col-sm-10 col-sm-offset-1 text-center ">
-                <hr>
-            </div>
-            <div class="col-sm-9">
-                <div class="row">
-                    <div class="col-sm-4">
-                         <div class="margin-15"><img class="border-blue" src="static/img/primary-teachers/stephanie-sharp-tacher-ces.jpg"></div>
-                    </div>
-                    <div class="col-sm-4 col-sm-offset-2 text-center">
-                        <h2 class="text-big uppercase"><span class="icon-record blue-color"></span>Jon Doe</h2>
-                        <h4>KI &amp; KII English</h4>
-                    </div>
-                </div>    
-            </div>
-            <div class="col-sm-3 margin-top-15 border-left text-right">
-                 <div class="margin-15"><img src="http://placehold.it/150&text=Website"></div>
-
-            </div>
-            <div class="col-sm-10 col-sm-offset-1 text-center ">
-                <hr>
-            </div>
-            <div class="col-sm-9">
-                <div class="row">
-                    <div class="col-sm-4">
-                         <div class="margin-15"><img class="border-blue" src="static/img/primary-teachers/valentyna-guzychenko-teacher-ces.jpg"></div>
-                    </div>
-                    <div class="col-sm-4 col-sm-offset-2 text-center">
-                        <h2 class="text-big uppercase"><span class="icon-record blue-color"></span>Jon Doe</h2>
-                        <h4>KI &amp; KII English</h4>
-                    </div>
-                </div>    
-            </div>
-            <div class="col-sm-3 margin-top-15 border-left text-right">
-                 <div class="margin-15"><img src="http://placehold.it/150&text=Website"></div>
-
-            </div>
-            
+                </div>
+                <div class="col-sm-10 col-sm-offset-1 text-center ">
+                    <hr>
+                </div>
+            {% endfor %}
         </div>
         
     </div>
