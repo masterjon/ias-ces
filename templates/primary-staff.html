@@ -12,12 +12,12 @@
         <div class="row lightgray-bg">
             <div class="col-sm-10 col-sm-offset-1 text-center ">
                 <div class="row">
-                    <div class="col-sm-5 col-sm-offset-1" >
+                    <div class="col-sm-4 col-sm-offset-1" >
                         <div class="margin-15"><img class="border-blue" src="static/img/primary-coordinators/andra-terry-coordinator-ces.jpg"></div>
                     </div>
-                    <div class="col-sm-5 text-left">
-                        <h2 class="text-big uppercase"><span class="icon-record blue-color"></span>Jon Doe</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit explicabo, porro voluptatibus mollitia. Ipsam sunt eum eos officia animi, modi fuga cupiditate ullam reiciendis, qui pariatur voluptates, blanditiis possimus iusto.</p>
+                    <div class="col-sm-7 text-left">
+                        <h2 class="text-big uppercase"><span class="icon-record blue-color"></span>Andrea Terry Thorpe</h2>
+                        <p>Principle for Primary and Kindergarten</p>
                     </div>
                     
                 </div>
@@ -27,12 +27,12 @@
             </div>
             <div class="col-sm-10 col-sm-offset-1 text-center">
                 <div class="row">
-                    <div class="col-sm-5 col-sm-offset-1" >
+                    <div class="col-sm-4 col-sm-offset-1" >
                         <div class="margin-15"><img class="border-red" src="static/img/primary-coordinators/armando-escobedo-coordinator-ces.jpg"></div>
                     </div>
-                    <div class="col-sm-5 text-left">
-                        <h2 class="text-big uppercase"><span class="icon-record red-color"></span>Jane Doe</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit explicabo, porro voluptatibus mollitia. Ipsam sunt eum eos officia animi, modi fuga cupiditate ullam reiciendis, qui pariatur voluptates, blanditiis possimus iusto.</p>
+                    <div class="col-sm-7 text-left">
+                        <h2 class="text-big uppercase"><span class="icon-record red-color"></span>Armando Escobedo</h2>
+                        <p>Spanish Department Coordinator for Primary</p>
                     </div>
                     
                 </div>
@@ -42,12 +42,12 @@
             </div>
             <div class="col-sm-10 col-sm-offset-1 text-center">
                 <div class="row">
-                    <div class="col-sm-5 col-sm-offset-1" >
+                    <div class="col-sm-4 col-sm-offset-1" >
                         <div class="margin-15"><img class="border-blue" src="static/img/primary-coordinators/gabriela-alcazar-coordinator-ces.jpg"></div>
                     </div>
-                    <div class="col-sm-5 text-left">
-                        <h2 class="text-big uppercase"><span class="icon-record blue-color"></span>Jane Doe</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit explicabo, porro voluptatibus mollitia. Ipsam sunt eum eos officia animi, modi fuga cupiditate ullam reiciendis, qui pariatur voluptates, blanditiis possimus iusto.</p>
+                    <div class="col-sm-7 text-left">
+                        <h2 class="text-big uppercase"><span class="icon-record blue-color"></span>Gabriela Alcazar</h2>
+                        <p>English Department Coordinator for Primary and Kindergarten</p>
                     </div>
                     
                 </div>
@@ -60,30 +60,20 @@
                 <table class="table table-bordered red-bg">
                   <thead>
                     <tr>
-                      <th>ADMIN</th>
-                      <th>MAIL</th>
-                      <th>TEL</th>
+                      <th>Name</th>
+                      <th>Position</th>
+                      <th>Contact Information</th>
                     </tr>
                   </thead>
                   <tbody>
-                    <tr>
-                      
-                      <td>Mark</td>
-                      <td>j.doe@ias.com</td>
-                      <td>999 8.88.88.88</td>
-                    </tr>
-                    <tr>
-                      
-                      <td>Jacob</td>
-                      <td>j.doe@ias.com</td>
-                      <td>999 8.88.88.88</td>
-                    </tr>
-                    <tr>
-                     
-                      <td>Larry</td>
-                      <td>j.doe@ias.com</td>
-                      <td>999 8.88.88.88</td>
-                    </tr>
+                    {% for list  in  page.list %}
+                      <tr>
+                          <td>{{list.name}}</td>
+                          <td>{{list.position}}</td>
+                          <td>{{list.email}}</td>
+                      </tr>  
+                    {% endfor %}
+                   
                   </tbody>
                 </table>
             </div>

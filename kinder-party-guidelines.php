@@ -7,7 +7,7 @@ $page_en=array(
   'metaDescription'=>'',
   'title' => 'Party Guidelines and permission',
   'content' => '<h4>In school party celebrations:</h4>
-  <ul>
+  <ul class="margin-15">
   	<li type=square><p>Please contact the main office in advance when you wish to celebrate
     your child&#39;s birthday at school.</p></li>
   	<li type=square><p>Please mention if you are considering both groups or just your child&#39;s for the for celebration</p></li>
@@ -19,24 +19,24 @@ $page_en=array(
 	<li type=square><p>Parents may only be present for 10 minutes to take pictures. Siblings may not attend.</p></li>
   </ul>
   <h4>Party celebrations outside of school:</h4>
-  <ul>
+  <ul class="margin-15">
   	<li type=square><p>Invitations for parties will only be delivered in school if the whole class is invited.</p></li>
   	<li type=square><p>The teacher must be notified before passing out invitations to avoid interrupting the class.</p></li>
   	<li type=square><p>We understand that you may decide to have a small party with some of your child ́s friends.
 	advise you to not pass out the invitations at school and to tell your child to be discrete in order
 	to avoid hurting other people ́s feelings.</p></li>
   	<li type=square><p>If you decide you will be taking students after school, please follow the guidelines:</p></li>
-		<ul>
-			<li type=circle><p>Print the authorization file “After School Party“ and deliver it once it has been completed
+		<ol class="margin-15">
+			<li ><p>Print the authorization file “After School Party“ and deliver it once it has been completed
 			with all the specific information to the main office. It must be delivered at least a day
 			in advance.</p></li>
-			<li type=circle><p>The parents of your child&#39;s guests must sign their authorization previously at the main
+			<li ><p>The parents of your child&#39;s guests must sign their authorization previously at the main
 			office.</p></li>
-			<li type=circle><p>The day of the party, please park in the parking lot at the kinder gate. The children will
+			<li ><p>The day of the party, please park in the parking lot at the kinder gate. The children will
 			be delivered at the gate based on the list provided.</p></li>
-			<li type=circle><p>No student will be allowed to leave without written authorization.</p></li>
-			<li type=circle><p>Make sure the children attending the party are notified, so they are ready at the gate.</p></li>
-		</ul>
+			<li ><p>No student will be allowed to leave without written authorization.</p></li>
+			<li ><p>Make sure the children attending the party are notified, so they are ready at the gate.</p></li>
+		</ol>
   </ul>',
   );
 
