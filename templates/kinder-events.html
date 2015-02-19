@@ -18,55 +18,15 @@
                                 <div class="carousel slide" id="myCarousel">
                                     <!-- Carousel items -->
                                     <div class="carousel-inner">
-                                        <div class="active item" data-slide-number="0">
-                                        <img src="http://placehold.it/770x300&text=Campamento"></div>
-
-                                        <div class="item" data-slide-number="1">
-                                        <img src="http://placehold.it/770x300&text=Independencia"></div>
-
-                                        <div class="item" data-slide-number="2">
-                                        <img src="http://placehold.it/770x300&text=Libro"></div>
-
-                                        <div class="item" data-slide-number="3">
-                                        <img src="http://placehold.it/770x300&text=Madres"></div>
-
-                                        <div class="item" data-slide-number="4">
-                                        <img src="http://placehold.it/770x300&text=Muertos"></div>
-
-                                        <div class="item" data-slide-number="5">
-                                        <img src="http://placehold.it/770x300&text=Nino"></div>
-
-                                        <div class="item" data-slide-number="6">
-                                        <img src="http://placehold.it/770x300&text=Padres"></div>
-
-                                        <div class="item" data-slide-number="7">
-                                        <img src="http://placehold.it/770x300&text=Graduacion"></div>
-
-                                        <div class="item" data-slide-number="8">
-                                        <img src="http://placehold.it/770x300&text=Halloween"></div>
-
-                                        <div class="item" data-slide-number="9">
-                                        <img src="http://placehold.it/770x300&text=Olimpiadas"></div>
-
-                                        <div class="item" data-slide-number="10">
-                                        <img src="http://placehold.it/770x300&text=Navidad"></div>
-
-                                        <div class="item" data-slide-number="11">
-                                        <img src="http://placehold.it/770x300&text=OpenHouse"></div>
-
-                                        <div class="item" data-slide-number="12">
-                                        <img src="http://placehold.it/770x300&text=Pascua"></div>
-
-                                        <div class="item" data-slide-number="13">
-                                        <img src="http://placehold.it/770x300&text=Recital"></div>
-
-                                        <div class="item" data-slide-number="14">
-                                        <img src="http://placehold.it/770x300&text=Show"></div>
-
-                                        <div class="item" data-slide-number="15">
-                                        <img src="http://placehold.it/770x300&text=Thanksgiving"></div>
-
-
+                                        {% for event in page.events %}
+                                            {% if loop.index == 1 %}
+                                                <div class="active item" data-slide-number="{{loop.index0}}">
+                                                <img src="{{event.image}}"></div>
+                                            {% else %}
+                                                <div class="item" data-slide-number="{{loop.index0}}">
+                                                <img src="{{event.image}}"></div>
+                                            {% endif %}
+                                         {% endfor %}
                                     </div><!-- Carousel nav -->
                                     <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
                                         <span class="glyphicon glyphicon-chevron-left"></span>                                       
@@ -80,178 +40,32 @@
                             <div class="col-sm-4" id="carousel-text"></div>
 
                             <div id="slide-content" style="display: none;">
-                                <div id="slide-content-0">
-                                    <h4>Campamento</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio cumque voluptas consequatur dignissimos iste dolore inventore cum esse magnam ducimus delectus eos, quod, ad officia accusantium maxime quam repellendus, rem.</p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio cumque voluptas consequatur dignissimos iste dolore inventore cum esse magnam ducimus delectus eos, quod, ad officia accusantium maxime quam repellendus, rem.</p>
-                                </div>
-
-                                <div id="slide-content-1">
-                                    <h4>Día de la Independencia</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio cumque voluptas consequatur dignissimos iste dolore inventore cum esse magnam ducimus delectus eos, quod, ad officia accusantium maxime quam repellendus, rem.</p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio cumque voluptas consequatur dignissimos iste dolore inventore cum esse magnam ducimus delectus eos, quod, ad officia accusantium maxime quam repellendus, rem.</p>
-                                </div>
-
-                                <div id="slide-content-2">
-                                    <h4>Día del Libro</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio cumque voluptas consequatur dignissimos iste dolore inventore cum esse magnam ducimus delectus eos, quod, ad officia accusantium maxime quam repellendus, rem.</p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio cumque voluptas consequatur dignissimos iste dolore inventore cum esse magnam ducimus delectus eos, quod, ad officia accusantium maxime quam repellendus, rem.</p>
-                                </div>
-
-                                <div id="slide-content-3">
-                                    <h4>Día de las madres</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio cumque voluptas consequatur dignissimos iste dolore inventore cum esse magnam ducimus delectus eos, quod, ad officia accusantium maxime quam repellendus, rem.</p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio cumque voluptas consequatur dignissimos iste dolore inventore cum esse magnam ducimus delectus eos, quod, ad officia accusantium maxime quam repellendus, rem.</p>
-                                </div>
-
-                                <div id="slide-content-4">
-                                    <h4>Día de muertos</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio cumque voluptas consequatur dignissimos iste dolore inventore cum esse magnam ducimus delectus eos, quod, ad officia accusantium maxime quam repellendus, rem.</p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio cumque voluptas consequatur dignissimos iste dolore inventore cum esse magnam ducimus delectus eos, quod, ad officia accusantium maxime quam repellendus, rem.</p>
-                                </div>
-
-                                <div id="slide-content-5">
-                                    <h4>Día del niño</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio cumque voluptas consequatur dignissimos iste dolore inventore cum esse magnam ducimus delectus eos, quod, ad officia accusantium maxime quam repellendus, rem.</p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio cumque voluptas consequatur dignissimos iste dolore inventore cum esse magnam ducimus delectus eos, quod, ad officia accusantium maxime quam repellendus, rem.</p>
-                                </div>
-
-                                <div id="slide-content-6">
-                                    <h4>Dia de padres</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio cumque voluptas consequatur dignissimos iste dolore inventore cum esse magnam ducimus delectus eos, quod, ad officia accusantium maxime quam repellendus, rem.</p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio cumque voluptas consequatur dignissimos iste dolore inventore cum esse magnam ducimus delectus eos, quod, ad officia accusantium maxime quam repellendus, rem.</p>
-                                </div>
-
-                                <div id="slide-content-7">
-                                    <h4>Graduación</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio cumque voluptas consequatur dignissimos iste dolore inventore cum esse magnam ducimus delectus eos, quod, ad officia accusantium maxime quam repellendus, rem.</p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio cumque voluptas consequatur dignissimos iste dolore inventore cum esse magnam ducimus delectus eos, quod, ad officia accusantium maxime quam repellendus, rem.</p>
-                                </div>
-
-                                <div id="slide-content-8">
-                                    <h4>Halloween</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio cumque voluptas consequatur dignissimos iste dolore inventore cum esse magnam ducimus delectus eos, quod, ad officia accusantium maxime quam repellendus, rem.</p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio cumque voluptas consequatur dignissimos iste dolore inventore cum esse magnam ducimus delectus eos, quod, ad officia accusantium maxime quam repellendus, rem.</p>
-                                </div>
-
-                                <div id="slide-content-9">
-                                    <h4>Mini Olimpiadas</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio cumque voluptas consequatur dignissimos iste dolore inventore cum esse magnam ducimus delectus eos, quod, ad officia accusantium maxime quam repellendus, rem.</p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio cumque voluptas consequatur dignissimos iste dolore inventore cum esse magnam ducimus delectus eos, quod, ad officia accusantium maxime quam repellendus, rem.</p>
-                                </div>
-
-                                <div id="slide-content-10">
-                                    <h4>Navidad</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio cumque voluptas consequatur dignissimos iste dolore inventore cum esse magnam ducimus delectus eos, quod, ad officia accusantium maxime quam repellendus, rem.</p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio cumque voluptas consequatur dignissimos iste dolore inventore cum esse magnam ducimus delectus eos, quod, ad officia accusantium maxime quam repellendus, rem.</p>
-                                </div>
-
-                                <div id="slide-content-11">
-                                    <h4>Open House</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio cumque voluptas consequatur dignissimos iste dolore inventore cum esse magnam ducimus delectus eos, quod, ad officia accusantium maxime quam repellendus, rem.</p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio cumque voluptas consequatur dignissimos iste dolore inventore cum esse magnam ducimus delectus eos, quod, ad officia accusantium maxime quam repellendus, rem.</p>
-                                </div>
-
-                                <div id="slide-content-12">
-                                    <h4>Pascua</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio cumque voluptas consequatur dignissimos iste dolore inventore cum esse magnam ducimus delectus eos, quod, ad officia accusantium maxime quam repellendus, rem.</p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio cumque voluptas consequatur dignissimos iste dolore inventore cum esse magnam ducimus delectus eos, quod, ad officia accusantium maxime quam repellendus, rem.</p>
-                                </div>
-
-                                <div id="slide-content-13">
-                                    <h4>Recital de poesía</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio cumque voluptas consequatur dignissimos iste dolore inventore cum esse magnam ducimus delectus eos, quod, ad officia accusantium maxime quam repellendus, rem.</p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio cumque voluptas consequatur dignissimos iste dolore inventore cum esse magnam ducimus delectus eos, quod, ad officia accusantium maxime quam repellendus, rem.</p>
-                                </div>
-
-                                <div id="slide-content-14">
-                                    <h4>Show de talentos</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio cumque voluptas consequatur dignissimos iste dolore inventore cum esse magnam ducimus delectus eos, quod, ad officia accusantium maxime quam repellendus, rem.</p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio cumque voluptas consequatur dignissimos iste dolore inventore cum esse magnam ducimus delectus eos, quod, ad officia accusantium maxime quam repellendus, rem.</p>
-                                </div>
-
-                                <div id="slide-content-15">
-                                    <h4>Thanksgiving</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio cumque voluptas consequatur dignissimos iste dolore inventore cum esse magnam ducimus delectus eos, quod, ad officia accusantium maxime quam repellendus, rem.</p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio cumque voluptas consequatur dignissimos iste dolore inventore cum esse magnam ducimus delectus eos, quod, ad officia accusantium maxime quam repellendus, rem.</p>
-                                </div>
+                                {% for event in page.events %}
+                                    <div id="slide-content-{{loop.index0}}">
+                                        <h4>{{ event.titulo|raw }}</h4>
+                                        {{ event.des|raw}}
+                                    </div>
+                                {% endfor %} 
+                                
                             </div>
                         </div>
                     </div>
                 </div><!--/Slider-->
 
-                <div class="row hidden-xs" id="slider-thumbs">
+                <div class="row hidden-xs text-center" id="slider-thumbs">
                         <!-- Bottom switcher of slider -->
-                        <ul class="hide-bullets">
-                            <li class="col-sm-2">
-                                <a class="thumbnail" id="carousel-selector-0"><img src="http://placehold.it/170x100&text=Campamente"></a>
-                            </li>
-
-                            <li class="col-sm-2">
-                                <a class="thumbnail" id="carousel-selector-1"><img src="http://placehold.it/170x100&text=Independencia"></a>
-                            </li>
-
-                            <li class="col-sm-2">
-                                <a class="thumbnail" id="carousel-selector-2"><img src="http://placehold.it/170x100&text=Libro"></a>
-                            </li>
-
-                            <li class="col-sm-2">
-                                <a class="thumbnail" id="carousel-selector-3"><img src="http://placehold.it/170x100&text=Madres"></a>
-                            </li>
-
-                            <li class="col-sm-2">
-                                <a class="thumbnail" id="carousel-selector-4"><img src="http://placehold.it/170x100&text=Muertos"></a>
-                            </li>
-
-                            <li class="col-sm-2">
-                                <a class="thumbnail" id="carousel-selector-5"><img src="http://placehold.it/170x100&text=Niño"></a>
-                            </li>
-
-                            <li class="col-sm-2">
-                                <a class="thumbnail" id="carousel-selector-6"><img src="http://placehold.it/170x100&text=Padres"></a>
-                            </li>
-
-                            <li class="col-sm-2">
-                                <a class="thumbnail" id="carousel-selector-7"><img src="http://placehold.it/170x100&text=Gradiacion"></a>
-                            </li>
-
-                            <li class="col-sm-2">
-                                <a class="thumbnail" id="carousel-selector-8"><img src="http://placehold.it/170x100&text=Hallowen"></a>
-                            </li>
-
-                            <li class="col-sm-2">
-                                <a class="thumbnail" id="carousel-selector-9"><img src="http://placehold.it/170x100&text=Olimpiadas"></a>
-                            </li>
-
-                            <li class="col-sm-2">
-                                <a class="thumbnail" id="carousel-selector-10"><img src="http://placehold.it/170x100&text=Navidad"></a>
-                            </li>
-
-                            <li class="col-sm-2">
-                                <a class="thumbnail" id="carousel-selector-11"><img src="http://placehold.it/170x100&text=OpenHouse"></a>
-                            </li>
-
-                            <li class="col-sm-2">
-                                <a class="thumbnail" id="carousel-selector-12"><img src="http://placehold.it/170x100&text=Pascua"></a>
-                            </li>
-
-                            <li class="col-sm-2">
-                                <a class="thumbnail" id="carousel-selector-13"><img src="http://placehold.it/170x100&text=Recital"></a>
-                            </li>
-
-                            <li class="col-sm-2">
-                                <a class="thumbnail" id="carousel-selector-14"><img src="http://placehold.it/170x100&text=Talentos"></a>
-                            </li>
-
-                            <li class="col-sm-2">
-                                <a class="thumbnail" id="carousel-selector-15"><img src="http://placehold.it/170x100&text=Thanksgiving"></a>
-                            </li>
+                        <ul class="hide-bullets text-center">
+                            {% for event in page.events %}
+                                <li class="text-center">
+                                    <div class="div-thumnail"><a class="thumbnail" id="carousel-selector-{{loop.index0}}" ><img onmouseout="$(this).attr('src','{{event.thumbnail}}')" onmouseover="$(this).attr('src','{{event.thumbnailh}}')" src="{{event.thumbnail}}" rel="{{event.thumbnail}}"></a></div>
+                                </li>
+                            {% endfor %}
+                            
 
 
                         </ul>                 
                 </div>
-        </div>
-        
+        </div>        
     </div>
 </div>
 {% endblock %}
