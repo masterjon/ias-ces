@@ -5,92 +5,55 @@
     <div class="col-sm-9 col-md-10 right-side">
         <div class="row">
             <div class="col-sm-12 page-title text-center">
-                <h2>Dialy Schedule</h2>
+                <h2>{{page.first_to_third}}</h2>
             </div>
         </div>
         <div class="row">
             <div class="col-sm-12  text-center">
-              <p>1st throug 3rd Grade's</p>
+              <p>{{page.first_to_third}}</p>
             </div>
             <div class="col-sm-10 col-sm-offset-1">
                 <table class="table table-bordered schedule">
                   <thead>
                     <tr >
                       
-                      <th class="red-bg text-center">TIME</th>
-                      <th class=" blue-bg text-center">ACTIVITY</th>
+                      <th class="red-bg text-center">{{page.time}}</th>
+                      <th class=" blue-bg text-center">{{page.activity}}</th>
                       
                     </tr>
                   </thead>
                   <tbody>
+                    {% for table in page.table1to3 %}
                     <tr>
-                      <td class="red-bg">7:10</td>
-                      <td class="blue-bg">Bell Rings</td>
+                      <td class="red-bg">{{table.time}}</td>
+                      <td class="blue-bg">{{table.activity}}</td>
                     </tr>
-                    <tr>
-                      <td class="red-bg">7:10</td>
-                      <td class="blue-bg">Bell Rings</td>
-                    </tr>
-                    <tr>
-                      <td class="red-bg">7:10</td>
-                      <td class="blue-bg">Bell Rings</td>
-                    </tr>
-                    <tr>
-                      <td class="red-bg">7:10</td>
-                      <td class="blue-bg">Bell Rings</td>
-                    </tr>
-                    <tr>
-                      <td class="red-bg">7:10</td>
-                      <td class="blue-bg">Bell Rings</td>
-                    </tr>
-                    <tr>
-                      <td class="red-bg">7:10</td>
-                      <td class="blue-bg">Bell Rings</td>
-                    </tr>
-
+                    {% endfor %}
                     
                   </tbody>
                 </table>
             </div>
              <div class="col-sm-12 text-center">
-              <p>4th throug 6th Grade's</p>
+              <p>{{page.fourth_to_sixth}}</p>
             </div>
             <div class="col-sm-10 col-sm-offset-1">
                 <table class="table table-bordered schedule">
                   <thead>
                     <tr >
                       
-                      <th class="red-bg text-center">TIME</th>
-                      <th class=" blue-bg text-center">ACTIVITY</th>
+                      <th class="red-bg text-center">{{page.time}}</th>
+                      <th class=" blue-bg text-center">{{page.activity}}</th>
                       
                     </tr>
                   </thead>
                   <tbody>
+                    
+                  {% for table in page.table4to6 %}
                     <tr>
-                      <td class="red-bg">7:10</td>
-                      <td class="blue-bg">Bell Rings</td>
+                      <td class="red-bg">{{table.time}}</td>
+                      <td class="blue-bg">{{table.activity}}</td>
                     </tr>
-                    <tr>
-                      <td class="red-bg">7:10</td>
-                      <td class="blue-bg">Bell Rings</td>
-                    </tr>
-                    <tr>
-                      <td class="red-bg">7:10</td>
-                      <td class="blue-bg">Bell Rings</td>
-                    </tr>
-                    <tr>
-                      <td class="red-bg">7:10</td>
-                      <td class="blue-bg">Bell Rings</td>
-                    </tr>
-                    <tr>
-                      <td class="red-bg">7:10</td>
-                      <td class="blue-bg">Bell Rings</td>
-                    </tr>
-                    <tr>
-                      <td class="red-bg">7:10</td>
-                      <td class="blue-bg">Bell Rings</td>
-                    </tr>
-
+                    {% endfor %}
                     
                   </tbody>
                 </table>
