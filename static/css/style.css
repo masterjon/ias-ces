@@ -202,6 +202,12 @@ table.schedule tr th{
 .margin-top-15{
     margin-top: 15px;
 }
+.margin-top-1em{
+    margin-top: 1em;
+}
+.margin-bottom-1em{
+    margin-bottom: 1em;
+}
 .margin-bottom-15{
     margin-bottom: 15px;
 }
@@ -389,6 +395,9 @@ margin-left: 10px;
 .text-big{
     font-size: 30px;
 }
+.text-bigger{
+    font-size: 60px;
+}
 .table.red-bg td,.table.red-bg th{
     color: white;
 }
@@ -485,4 +494,106 @@ margin-left: 10px;
 
 .sidebar {
 
+}
+
+.curriculum-list >tbody >tr > td,.curriculum-list >tbody >tr > th{
+ color: white;
+ border-top:0;
+ border-bottom: 1px solid white;
+}
+
+
+
+
+ .flip-container {
+    min-height: 250px;
+    margin:0 auto;
+    -webkit-perspective: 1000;
+    -moz-perspective: 1000;
+    -o-perspective: 1000;
+    perspective: 1000;
+}
+
+
+
+.flipper {
+    -moz-transform: perspective(1000px);
+    -moz-transform-style: preserve-3d;
+
+    position: relative;
+}
+
+.front,.back {
+
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+    backface-visibility: hidden;
+
+    -webkit-transition: 0.6s;
+    -webkit-transform-style: preserve-3d;
+
+    -moz-transition: 0.6s;
+    -moz-transform-style: preserve-3d;
+
+    -o-transition: 0.6s;
+    -o-transform-style: preserve-3d;
+
+    -ms-transition: 0.6s;
+    -ms-transform-style: preserve-3d;
+
+    transition: 0.6s;
+    transform-style: preserve-3d;
+
+    max-width: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.csstransforms3d .back {
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    -o-transform: rotateY(-180deg);
+    -ms-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+}
+
+.csstransforms3d .flip-container:hover .back,.csstransforms3d .flip-container.hover .back {
+    -webkit-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+}
+
+.csstransforms3d .flip-container:hover .front,.csstransforms3d .flip-container.hover .front {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+.csstransforms3d .curriculum-header{
+    display: none;
+}
+.no-csstransforms3d .front{
+    display: none;
+}
+.no-csstransforms3d .curriculum-header {
+    display: table-row;
+}
+
+
+.ie-lt9 .front:hover{
+   z-index: 1;
+}
+.ie-lt9 .back:hover{
+    z-index: 2;
+}
+.front {
+    z-index: 2;
+}
+.back{
+    z-index: 1;
 }
