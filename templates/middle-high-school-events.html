@@ -15,56 +15,18 @@
                         <!-- Top part of the slider -->
                         <div class="row">
                             <div class="col-sm-8" id="carousel-bounding-box">
-                                <div class="carousel slide" id="myCarousel">
+                                <div class="carousel slide events-carousel" id="myCarousel">
                                     <!-- Carousel items -->
                                     <div class="carousel-inner">
-                                        <div class="active item" data-slide-number="0">
-                                        <img src="static/img/high-middle-events/12-grade-graduation-ias-gallery.jpg"></div>
-
-                                        <div class="item" data-slide-number="1">
-                                        <img src="static/img/high-middle-events/book-day-ias-gallery.jpg"></div>
-
-                                        <div class="item" data-slide-number="2">
-                                        <img src="static/img/high-middle-events/cancun-mun-ias-gallery.jpg"></div>
-
-                                        <div class="item" data-slide-number="3">
-                                        <img src="static/img/high-middle-events/community-service-ias-gallery.jpg"></div>
-
-                                        <div class="item" data-slide-number="4">
-                                        <img src="static/img/high-middle-events/eagle-houses-gallery.jpg"></div>
-
-                                        <div class="item" data-slide-number="5">
-                                        <img src="static/img/high-middle-events/eating-disorder-awareness-ias-gallery.jpg"></div>
-
-                                        <div class="item" data-slide-number="6">
-                                        <img src="static/img/high-middle-events/field-trips-ias-gallery.jpg"></div>
-
-                                        <div class="item" data-slide-number="7">
-                                        <img src="static/img/high-middle-events/halloween-ias-gallery.jpg"></div>
-
-                                        <div class="item" data-slide-number="8">
-                                        <img src="static/img/high-middle-events/ias-idol-ias-gallery.jpg"></div>
-
-                                        <div class="item" data-slide-number="9">
-                                        <img src="static/img/high-middle-events/independence-day-ias-gallery.jpg"></div>
-
-                                        <div class="item" data-slide-number="10">
-                                        <img src="static/img/high-middle-events/march-madness-ias-gallery.jpg"></div>
-
-                                        <div class="item" data-slide-number="11">
-                                        <img src="static/img/high-middle-events/national-honor-society-ias-gallery.jpg"></div>
-
-                                        <div class="item" data-slide-number="12">
-                                        <img src="static/img/high-middle-events/science-fair-ias-gallery.jpg"></div>
-
-                                        <div class="item" data-slide-number="13">
-                                        <img src="static/img/high-middle-events/world-cup-ias-gallery.jpg"></div>
-
-                                        
-
-                                        
-
-
+                                        {% for event in page.events %}
+                                            {% if loop.index == 1 %}
+                                                <div class="active item" data-slide-number="{{loop.index0}}">
+                                                <img src="{{event.image}}"></div>
+                                            {% else %}
+                                                <div class="item" data-slide-number="{{loop.index0}}">
+                                                <img src="{{event.image}}"></div>
+                                            {% endif %}
+                                         {% endfor %}
                                     </div><!-- Carousel nav -->
                                     <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
                                         <span class="glyphicon glyphicon-chevron-left"></span>                                       
@@ -78,92 +40,12 @@
                             <div class="col-sm-4" id="carousel-text"></div>
 
                             <div id="slide-content" style="display: none;">
-                                <div id="slide-content-0">
-                                    <h4>Campamento</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio cumque voluptas consequatur dignissimos iste dolore inventore cum esse magnam ducimus delectus eos, quod, ad officia accusantium maxime quam repellendus, rem.</p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio cumque voluptas consequatur dignissimos iste dolore inventore cum esse magnam ducimus delectus eos, quod, ad officia accusantium maxime quam repellendus, rem.</p>
-                                </div>
-
-                                <div id="slide-content-1">
-                                    <h4>Día de la Independencia</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio cumque voluptas consequatur dignissimos iste dolore inventore cum esse magnam ducimus delectus eos, quod, ad officia accusantium maxime quam repellendus, rem.</p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio cumque voluptas consequatur dignissimos iste dolore inventore cum esse magnam ducimus delectus eos, quod, ad officia accusantium maxime quam repellendus, rem.</p>
-                                </div>
-
-                                <div id="slide-content-2">
-                                    <h4>Día del Libro</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio cumque voluptas consequatur dignissimos iste dolore inventore cum esse magnam ducimus delectus eos, quod, ad officia accusantium maxime quam repellendus, rem.</p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio cumque voluptas consequatur dignissimos iste dolore inventore cum esse magnam ducimus delectus eos, quod, ad officia accusantium maxime quam repellendus, rem.</p>
-                                </div>
-
-                                <div id="slide-content-3">
-                                    <h4>Día de las madres</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio cumque voluptas consequatur dignissimos iste dolore inventore cum esse magnam ducimus delectus eos, quod, ad officia accusantium maxime quam repellendus, rem.</p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio cumque voluptas consequatur dignissimos iste dolore inventore cum esse magnam ducimus delectus eos, quod, ad officia accusantium maxime quam repellendus, rem.</p>
-                                </div>
-
-                                <div id="slide-content-4">
-                                    <h4>Día de muertos</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio cumque voluptas consequatur dignissimos iste dolore inventore cum esse magnam ducimus delectus eos, quod, ad officia accusantium maxime quam repellendus, rem.</p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio cumque voluptas consequatur dignissimos iste dolore inventore cum esse magnam ducimus delectus eos, quod, ad officia accusantium maxime quam repellendus, rem.</p>
-                                </div>
-
-                                <div id="slide-content-5">
-                                    <h4>Día del niño</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio cumque voluptas consequatur dignissimos iste dolore inventore cum esse magnam ducimus delectus eos, quod, ad officia accusantium maxime quam repellendus, rem.</p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio cumque voluptas consequatur dignissimos iste dolore inventore cum esse magnam ducimus delectus eos, quod, ad officia accusantium maxime quam repellendus, rem.</p>
-                                </div>
-
-                                <div id="slide-content-6">
-                                    <h4>Dia de padres</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio cumque voluptas consequatur dignissimos iste dolore inventore cum esse magnam ducimus delectus eos, quod, ad officia accusantium maxime quam repellendus, rem.</p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio cumque voluptas consequatur dignissimos iste dolore inventore cum esse magnam ducimus delectus eos, quod, ad officia accusantium maxime quam repellendus, rem.</p>
-                                </div>
-
-                                <div id="slide-content-7">
-                                    <h4>Graduación</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio cumque voluptas consequatur dignissimos iste dolore inventore cum esse magnam ducimus delectus eos, quod, ad officia accusantium maxime quam repellendus, rem.</p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio cumque voluptas consequatur dignissimos iste dolore inventore cum esse magnam ducimus delectus eos, quod, ad officia accusantium maxime quam repellendus, rem.</p>
-                                </div>
-
-                                <div id="slide-content-8">
-                                    <h4>Halloween</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio cumque voluptas consequatur dignissimos iste dolore inventore cum esse magnam ducimus delectus eos, quod, ad officia accusantium maxime quam repellendus, rem.</p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio cumque voluptas consequatur dignissimos iste dolore inventore cum esse magnam ducimus delectus eos, quod, ad officia accusantium maxime quam repellendus, rem.</p>
-                                </div>
-
-                                <div id="slide-content-9">
-                                    <h4>Mini Olimpiadas</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio cumque voluptas consequatur dignissimos iste dolore inventore cum esse magnam ducimus delectus eos, quod, ad officia accusantium maxime quam repellendus, rem.</p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio cumque voluptas consequatur dignissimos iste dolore inventore cum esse magnam ducimus delectus eos, quod, ad officia accusantium maxime quam repellendus, rem.</p>
-                                </div>
-
-                                <div id="slide-content-10">
-                                    <h4>Navidad</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio cumque voluptas consequatur dignissimos iste dolore inventore cum esse magnam ducimus delectus eos, quod, ad officia accusantium maxime quam repellendus, rem.</p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio cumque voluptas consequatur dignissimos iste dolore inventore cum esse magnam ducimus delectus eos, quod, ad officia accusantium maxime quam repellendus, rem.</p>
-                                </div>
-
-                                <div id="slide-content-11">
-                                    <h4>Open House</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio cumque voluptas consequatur dignissimos iste dolore inventore cum esse magnam ducimus delectus eos, quod, ad officia accusantium maxime quam repellendus, rem.</p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio cumque voluptas consequatur dignissimos iste dolore inventore cum esse magnam ducimus delectus eos, quod, ad officia accusantium maxime quam repellendus, rem.</p>
-                                </div>
-
-                                <div id="slide-content-12">
-                                    <h4>Pascua</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio cumque voluptas consequatur dignissimos iste dolore inventore cum esse magnam ducimus delectus eos, quod, ad officia accusantium maxime quam repellendus, rem.</p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio cumque voluptas consequatur dignissimos iste dolore inventore cum esse magnam ducimus delectus eos, quod, ad officia accusantium maxime quam repellendus, rem.</p>
-                                </div>
-
-                                <div id="slide-content-13">
-                                    <h4>Recital de poesía</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio cumque voluptas consequatur dignissimos iste dolore inventore cum esse magnam ducimus delectus eos, quod, ad officia accusantium maxime quam repellendus, rem.</p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio cumque voluptas consequatur dignissimos iste dolore inventore cum esse magnam ducimus delectus eos, quod, ad officia accusantium maxime quam repellendus, rem.</p>
-                                </div>
-
-                         
-                               
+                                {% for event in page.events %}
+                                    <div id="slide-content-{{loop.index0}}">
+                                        <h4>{{ event.titulo|raw }}</h4>
+                                        {{ event.des|raw}}
+                                    </div>
+                                {% endfor %}
                             </div>
                         </div>
                     </div>
@@ -172,52 +54,11 @@
                 <div class="row hidden-xs" id="slider-thumbs">
                         <!-- Bottom switcher of slider -->
                         <ul class="hide-bullets">
-                            <li class="col-sm-2">
-                                <a class="thumbnail" id="carousel-selector-0"><img src="static/img/high-middle-events/12-grade-graduation-ias.jpg"></a>
-                            </li>
-                            <li class="col-sm-2">
-                                <a class="thumbnail" id="carousel-selector-1"><img src="static/img/high-middle-events/book-day-ias.jpg"></a>
-                            </li>
-                            <li class="col-sm-2">
-                                <a class="thumbnail" id="carousel-selector-2"><img src="static/img/high-middle-events/cancun-mun-ias.jpg"></a>
-                            </li>
-                            <li class="col-sm-2">
-                                <a class="thumbnail" id="carousel-selector-3"><img src="static/img/high-middle-events/community-service-ias.jpg"></a>
-                            </li>
-                            <li class="col-sm-2">
-                                <a class="thumbnail" id="carousel-selector-4"><img src="static/img/high-middle-events/eagle-houses.jpg"></a>
-                            </li>
-                            <li class="col-sm-2">
-                                <a class="thumbnail" id="carousel-selector-5"><img src="static/img/high-middle-events/eating-disorder-awareness-ias.jpg"></a>
-                            </li>
-                            <li class="col-sm-2">
-                                <a class="thumbnail" id="carousel-selector-6"><img src="static/img/high-middle-events/field-trips-ias.jpg"></a>
-                            </li>
-                            <li class="col-sm-2">
-                                <a class="thumbnail" id="carousel-selector-7"><img src="static/img/high-middle-events/halloween-ias.jpg"></a>
-                            </li>
-                            <li class="col-sm-2">
-                                <a class="thumbnail" id="carousel-selector-8"><img src="static/img/high-middle-events/ias-idol-ias.jpg"></a>
-                            </li>
-                            <li class="col-sm-2">
-                                <a class="thumbnail" id="carousel-selector-9"><img src="static/img/high-middle-events/independence-day-ias.jpg"></a>
-                            </li>
-                            <li class="col-sm-2">
-                                <a class="thumbnail" id="carousel-selector-10"><img src="static/img/high-middle-events/march-madness-ias.jpg"></a>
-                            </li>
-                            <li class="col-sm-2">
-                                <a class="thumbnail" id="carousel-selector-11"><img src="static/img/high-middle-events/national-honor-society-ias.jpg"></a>
-                            </li>
-                            <li class="col-sm-2">
-                                <a class="thumbnail" id="carousel-selector-12"><img src="static/img/high-middle-events/science-fair-ias.jpg"></a>
-                            </li>
-                            <li class="col-sm-2">
-                                <a class="thumbnail" id="carousel-selector-13"><img src="static/img/high-middle-events/world-cup-ias.jpg"></a>
-                            </li>
-                            
-
-
-
+                           {% for event in page.events %}
+                                <li class="">
+                                    <div class="div-thumbnail"><a class="thumbnail" id="carousel-selector-{{loop.index0}}" ><img onmouseout="$(this).attr('src','{{event.thumbnail}}')" onmouseover="$(this).attr('src','{{event.thumbnailh}}')" src="{{event.thumbnail}}" rel="{{event.thumbnail}}"></a></div>
+                                </li>
+                            {% endfor %}
                         </ul>                 
                 </div>
         </div>

@@ -45,7 +45,7 @@ $page_es=array(
   'metaDescription'=>'',
   'title' => 'Kinder Lineamientos de Festejos',
   'content' => '<h4>Celebraciones dentro de la escuela:</h4>
-  <ul>
+  <ul  class="margin-15">
   	<li type=square><p>Favor de contactar a la oficina cuando menos dos días antes de la
 	celebración del cumpleaños de su hijo (a) en la escuela.</p></li>
   	<li type=square><p>Favor de mencionar si está considerando ambos salones o únicamente el de su hijo (a).</p></li>
@@ -58,7 +58,7 @@ $page_es=array(
 	podrán asistir.</p></li>
   </ul>
   <h4>Celebraciones fuera de la escuela:</h4>
-  <ul>
+  <ul  class="margin-15">
   	<li type=square><p>Las invitaciones a las fiestas solo serán entregadas en la escuela si todo el salón es invitado.</p></li>
   	<li type=square><p>El padre avisará y enviará las invitaciones al maestro para ser entregadas y así evitar
 	interrumpir la clase.</p></li>
@@ -67,7 +67,7 @@ $page_es=array(
 	pedir a su hijo (a) que sea discreto para no lastimar los sentimientos de algún compañero.</p></li>
   	<li type=square><p>Si decide llevarse alumnos después de clases el día de la fiesta, seguir los siguientes
 	lineamientos:</p></li>
-		<ul>
+		<ol class="margin-15">
 			<li type=circle><p>Imprimir el archivo de “Fiestas después de clases” y entregarlo firmado a la oficina.
 			Deberá ser entregado por lo menos un día previo.</p></li>
 			<li type=circle><p>Los padres de los niños invitados deben firmar su autorización en la oficina.</p></li>
@@ -76,7 +76,7 @@ $page_es=array(
 			<li type=circle><p>Ningún estudiante podrá irse de la escuela, sin la firma de autorización del padre.</p></li>
 			<li type=circle><p>Asegurarse de que sus hijos (as) sepan de antemano que asistirán a la fiesta de su
 			compñero para que estén listos en la reja de Kinder.</p></li>
-		</ul>
+		</ol>
   </ul>',
   );
 
