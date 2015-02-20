@@ -15,37 +15,19 @@
                   <thead>
                     <tr >
                       
-                      <th class="red-bg text-center">TIME</th>
-                      <th class=" blue-bg text-center">ACTIVITY</th>
+                      <th class="red-bg text-center">{{page.time}}</th>
+                      <th class=" blue-bg text-center">{{page.activity}}</th>
                       
                     </tr>
                   </thead>
                   <tbody>
+                    
+                  {% for table in page.table %}
                     <tr>
-                      <td class="red-bg">7:10</td>
-                      <td class="blue-bg">Bell Rings</td>
+                      <td class="red-bg">{{table.time}}</td>
+                      <td class="blue-bg">{{table.activity}}</td>
                     </tr>
-                    <tr>
-                      <td class="red-bg">7:10</td>
-                      <td class="blue-bg">Bell Rings</td>
-                    </tr>
-                    <tr>
-                      <td class="red-bg">7:10</td>
-                      <td class="blue-bg">Bell Rings</td>
-                    </tr>
-                    <tr>
-                      <td class="red-bg">7:10</td>
-                      <td class="blue-bg">Bell Rings</td>
-                    </tr>
-                    <tr>
-                      <td class="red-bg">7:10</td>
-                      <td class="blue-bg">Bell Rings</td>
-                    </tr>
-                    <tr>
-                      <td class="red-bg">7:10</td>
-                      <td class="blue-bg">Bell Rings</td>
-                    </tr>
-
+                    {% endfor %}
                     
                   </tbody>
                 </table>

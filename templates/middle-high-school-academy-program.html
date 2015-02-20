@@ -9,40 +9,72 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-sm-10 col-sm-offset-1">
-               <div class="row text-center-xs">
-                    <div class="col-sm-7 col-sm-offset-1 vertical-center" ><h2>GENERAL OUTLINE</h2></div>
-                    <div class="col-sm-3 text-center vertical-center "><div class="margin-15"><img src="static/img/parents-handbook/pdf-download.png" width="250"></div></div>
-                </div>
+            <div class="col-sm-10 col-sm-offset-1 text-center">
+                <h4>{{page.junior_high}}</h4>
+                <table class="table table-bordered red-bg">
+                  <thead>
+                    <tr>
+                      <th class="text-center">{{page.seventh}}</th>
+                      <th class="text-center">{{page.eight}}</th>
+                      <th class="text-center">{{page.ninth}}</th>
+                      
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {% for list  in  page.table_junior %}
+                      <tr>
+                          <td>{{list.seventh}}</td>
+                          <td>{{list.eight}}</td>
+                          <td>{{list.ninth}}</td>
+                         
+                      </tr>  
+                    {% endfor %}
+                   
+                  </tbody>
+                </table>
             </div>
         </div>
-        <div class="row margin-top-15 margin-bottom-15"></div>
-        <div class="row lightgray-bg">
-            <div class="col-sm-10 col-sm-offset-1">
-               <div class="row text-center-xs">
-                    <div class="col-sm-7 col-sm-offset-1 vertical-center" ><h3>LAW SYNTHESIS</h3></div>
-                    <div class="col-sm-3 text-center vertical-center "><div class="margin-15"><img src="static/img/parents-handbook/pdf-download.png" width="200"></div></div>
-                </div>
-            </div>
-            <div class="col-sm-10 col-sm-offset-1 text-center ">
-                <hr>
-            </div>
-            <div class="col-sm-10 col-sm-offset-1">
-                <div class="row text-center-xs">
-                    <div class="col-sm-7 col-sm-offset-1 vertical-center" ><h3>MEXICO'S GEOGRAPHY SYNTHESIS</h3></div>
-                    <div class="col-sm-3 text-center vertical-center "><div class="margin-15"><img src="static/img/parents-handbook/pdf-download.png" width="200"></div></div>
-                </div>
-            </div>
-            <div class="col-sm-10 col-sm-offset-1 text-center ">
-                <hr>
-            </div>
-            <div class="col-sm-10 col-sm-offset-1">
-                <div class="row text-center-xs">
-                    <div class="col-sm-7 col-sm-offset-1 vertical-center" ><h3>MEXICO'S HISTORY SYNTHESIS</h3></div>
-                    <div class="col-sm-3 text-center vertical-center "><div class="margin-15"><img src="static/img/parents-handbook/pdf-download.png" width="200"></div></div>
-                </div>
+        <div class="row">
+            <div class="col-sm-10 col-sm-offset-1 text-center">
+                <h4>{{page.high_school}}</h4>
+                <table class="table table-bordered red-bg">
+                  <thead>
+                    <tr>
+                      <th class="text-center">{{page.tenth}}</th>
+                      <th class="text-center">{{page.eleventh}}</th>
+                      <th class="text-center">{{page.twelfth}}</th>
+                      
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {% for list  in  page.table_high_school %}
+                      <tr>
+                          <td>{{list.tenth}}</td>
+                          <td>{{list.eleventh}}</td>
+                          <td>{{list.twelfth}}</td>                         
+                      </tr>  
+                    {% endfor %}
+                  </tbody>
+                </table>
             </div>
         </div>
+        <div class="row">
+            <div class="col-sm-10 col-sm-offset-1">
+                <p><strong>Model United Nations</strong></p>
+                <p>Model UN is a seminar class during which students study the history and functions of the United Nations. Most students then participate in a conference that takes place in another state or country.</p>
+                <p><strong>Other Observations</strong></p>
+                <p>
+                    a) In 12th grade students are assigned to math classes according to their math skills and preference.
+                    <br>
+                    b) During their senior year, students can choose between physics and ecology.
+                    <br>
+                    c) Students in grades 9-12 choose electives each semester. In the past these electives have included drawing, painting, woodworking, chess, computer drawing, drama, chorus, Intro to German, and SAT prep. 
+                    <br>
+                    d) Orientation is a class in which students explore their personalities, career options, test-taking skills, etc.
+                </p>
+            </div>
+        </div>
+       
         
     </div>
 </div>
