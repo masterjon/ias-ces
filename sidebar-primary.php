@@ -8,6 +8,9 @@ $sidebar = array(
     'after_school' => 'After School', 
     'calendars' => 'Calendars', 
     'events' => 'Events', 
+    'party_guidelines' => 'Party Guidelines and permissions',
     'curriculum' => 'Curriculum', 
+    'technology' => 'Technology', 
+    'uniforms' => 'Uniforms', 
     );
  ?>
