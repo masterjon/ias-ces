@@ -46,20 +46,20 @@
         <div class="row">
             <div class="col-sm-10 col-sm-offset-1">
                 <p>{{page.content}}</p>
-                <table class="table table-bordered schedule">
+                <table class="table table-bordered schedule red-border">
                   <thead>
                     <tr >
                       
-                      <th class="red-bg text-center">{{page.col1}}</th>
-                      <th class=" blue-bg text-center">{{page.col2}}</th>
+                      <th class=" text-center">{{page.col1}}</th>
+                      <th class=" text-center">{{page.col2}}</th>
                       
                     </tr>
                   </thead>
                   <tbody>
                     {% for table in page.table %}
                     <tr>
-                      <td class="red-bg">{{table.col1}}</td>
-                      <td class="blue-bg">{{table.col2}}</td>
+                      <td class="">{{table.col1}}</td>
+                      <td class="">{{table.col2}}</td>
                     </tr>
                     {% endfor %}
                     

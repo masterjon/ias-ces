@@ -14,8 +14,6 @@ body {font: 13px Helmet, Freesans, sans-serif;}
 /* We like off-black for text. */
 body, select, input, textarea {color: #333;}
 
-a {color: #03f;}
-a:hover {color: #69f;}
 
 /* Custom text-selection colors (remove any text shadows: http://twitter.com/miketaylr/status/12228805301) */
 ::-moz-selection{background: #fcd700; color: #fff; text-shadow: none;}
@@ -67,8 +65,11 @@ h3{
 }
 p,a{  
     font-family: 'Montserrat', sans-serif;
-    color: #5b5b5b;
+    
     font-size: 14px;
+}
+p{
+    color: #5b5b5b;
 }
 span, #footer a,.footer-menu p{
     font-family: 'Montserrat', sans-serif;
@@ -117,7 +118,10 @@ yellow = #F6FF01
 .table-bordered > tbody > tr > td, .table-bordered > tfoot > tr > td, .table-bordered > thead > tr > th {
   border: 2px solid #e71f25;
 }
-
+.yellowlink:hover{
+            color: #F6FF01!important;
+            
+}
 
 
 .main-title{
@@ -192,15 +196,11 @@ yellow = #F6FF01
 }
 
 table.schedule tr td{
-    color: white;
-    font-size: 14px;
-    font-weight: bold;
-    padding-left: 30px;
+
+  
 }
 table.schedule tr th{
-    color: white;
-    font-size: 16px;
-    font-weight: bold;
+  
 }
 .vertical-center {
     display: inline-block;
@@ -616,8 +616,14 @@ margin-left: 10px;
     z-index: 1;
 }
 
-.phone-red,.phone-blue{padding: 2px 4px; border-radius: 10px}
-
+.phone-red,.phone-blue{
+      padding: 4px 8px 6px 7px;
+  border-radius: 9px;
+  margin-left: 2px;
+}
+.glyphicon-earphone:before{
+    padding-right: 4px;
+}
 .btn-enviar{  padding: 5px 15px;
   float: right;
   color: #fff;

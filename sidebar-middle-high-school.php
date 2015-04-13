@@ -1,7 +1,6 @@
 <?php 
 $sidebar = array(
     'title' => 'MIDDLE / HIGH SCHOOL',
-    'about' => 'About',
     'staff' => 'Coordinators and administrative staff',
     'schedule' => 'Dialy Schedule', 
     'teachers' => 'Teacher Websites',
