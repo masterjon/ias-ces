@@ -4,8 +4,8 @@ require 'sidebar-kinder.php';
 $page=array(
     'metaTitle'=>'',
     'metaDescription'=>'',
-    'title' => 'Standard',
-    'sub_title' => 'Standards 2014-2016',
+    'title' => 'Standards',
+    'sub_title' => '',
     'download' => 'Download',
     'content' => '',
     'k1' => 'static/pdf/standards_k1.pdf',

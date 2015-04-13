@@ -5,25 +5,27 @@
     <div class="col-sm-9 col-md-10 right-side">
         <div class="row">
             <div class="col-sm-12 page-title text-center">
-                <h2>Teachers</h2>
+                <h2>{{page.title}}</h2>
             </div>
         </div>
         <div class="row">
             <div class="col-sm-12 margin-top-15 margin-bottom-15"></div>
             <div class="col-sm-10 col-sm-offset-1">
-                <table class="table table-bordered red-bg">
+                <table class="table table-bordered white-bg red-border">
                   <thead>
                     <tr>
                       <th>Name</th>
                       <th>Position</th>
-                      
+                      <th></th>
+
                     </tr>
                   </thead>
                   <tbody>
                     {% for list  in  page.teachers %}
                       <tr>
-                          <td>{{list.name}}</td>
+                          <td><a href="{{list.link}}" target="_blank">{{list.name}}</a></td>
                           <td>{{list.position}}</td>
+                          <td><img class="" src="{{list.image}}"></td>
                          
                       </tr>  
                     {% endfor %}

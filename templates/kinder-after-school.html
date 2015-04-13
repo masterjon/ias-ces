@@ -1,0 +1,74 @@
+{% extends "layout.html" %}
+{% block content %}
+<div class="row body">
+    {% include 'sidebar-kinder.html' %}
+    <div class="col-sm-9 col-md-10 right-side">
+        <div class="row">
+            <div class="col-sm-12 page-title text-center">
+                <h2>{{page.title}}</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 page-title text-center">
+                <p>Students may enroll in extra curricular activities from 1:15 pm to 2:00 pm.  These activities are payed in cash, separate from regular tuition. The options are:</p>
+            </div>
+        </div>
+        
+         <div class="row">
+            <div class="col-sm-12 margin-top-15 margin-bottom-15"></div>
+            <div class="col-sm-12 ">
+                <table class="table table-bordered white-bg red-border">
+                  <thead>
+                    <tr>
+                      <th>Monday  and Wednesday</th>
+                      <th>Tuesday and Thursday</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+
+                      <tr>
+                          <td>Baking</td>
+                          <td>Robotics</td>
+                      </tr> 
+                      <tr>
+                          <td>Soccer</td>
+                          <td>Yoga</td>
+                      </tr> 
+                      <tr>
+                          <td>Basketball</td>
+                          <td>English</td>
+                      </tr>  
+                      <tr>
+                          <td>Ballet</td>
+                          <td>Tenis</td>
+                      </tr>                      
+                      <tr>
+                          <td>Tenis</td>
+                          <td>Traditional Games</td>
+                      </tr>                      
+                      <tr>
+                          <td></td>
+                          <td>Mexican Traditional Games</td>
+                      </tr>                      
+                      <tr>
+                          <td></td>
+                          <td>Storytelling</td>
+                      </tr>
+                   
+                  </tbody>
+                </table>
+            </div>
+        </div>
+        
+    </div>
+</div>
+{% endblock %}
+{% block js %}
+<script type="text/javascript">
+  jQuery(document).ready(function($) {
+    $("li.schools").addClass("active");
+    $("li.kinder").addClass("active");
+    $("li.kinder-after").addClass("active");
+  });
+</script>
+{% endblock  %}

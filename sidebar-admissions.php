@@ -1,7 +1,9 @@
 <?php 
 $sidebar= array(
     'title' => 'Admissions',
-    'process' => 'Proccess',
-    're_enrrollement' => 'Re-Enrollemet'
+    'process_payment' => 'Payment Process',
+    'primary' => 'Kinder/Primary Process',
+    'high' => 'Middle/High Process',
+    're_enrrollement' => 'Re-Enrollement'
     );
  ?>

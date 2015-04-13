@@ -7,14 +7,13 @@ $page=array(
     'title' => 'SCHOOL PROFILE',
     'content' => '<h4>DESCRIPTION</h4><p>The International American School of Cancun, Mexico, is a private, non-profit, non-sectarian, co-educational institution
 offering a bilingual, bicultural education for students from preschool through high school. The kinder and elementary 
-section (CES) was founded in 1980 and the high school in 1998. The school is dedicated to an American style 
+section (CES) was founded in 1990 and the high school in 1998. The school is dedicated to an American style 
 education, high academic standards and the caring environment a small school can offer. The International American 
 School of Cancun is accredited by the Southern Association of Colleges and Schools (SACS), Mexico’s Ministry of 
 Education (SEP) and the National Autonomous University of Mexico (UNAM).</p>
-<p>Kinder/ Elementary: 306
-Middle/High School: 292 
-Student Population: 84% Mexican 5% U.S. 11% Other
-CEEB: 870070</p><br>
+<p>Kinder/ Elementary: 306</p>
+<p>Middle/High School: 292 </p>
+<p>Student Population: 84% Mexican 5% U.S. 11% Other</p><br>
 <h4>THE FACULTY</h4><p>The International American School of Cancun maintains a highly trained professional staff, composed of teachers from 
 the U.S., Mexico, England, and Canada. Thirty-three percent of the teachers hold a graduate degree. These teachers 
 support the efforts of the school community to provide an American model of education in a bilingual, bicultural setting. 

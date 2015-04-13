@@ -6,7 +6,7 @@ $page_en=array(
   'metaTitle'=>'',
   'metaDescription'=>'',
   'title' => 'Schools',
-  'subtitle' => 'Upcomming Events',
+  'subtitle' => 'Upcoming Events',
   );
 
 $page_es=array(

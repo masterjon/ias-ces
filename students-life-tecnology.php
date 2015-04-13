@@ -4,7 +4,7 @@ require 'sidebar-students-life.php';
 $page=array(
     'metaTitle'=>'',
     'metaDescription'=>'',
-    'title' => 'Tecnology',
+    'title' => 'Technology',
     'content' => '<p>In IAS we recognize that technology and internet are part of our everyday life, and so it is essential to teach
 
 students how to use them correctly and responsibly. Our mission is based on a school wide commitment of 

@@ -27,7 +27,7 @@ $page_en=array(
   to avoid hurting other people ́s feelings.</p></li>
     <li type=square><p>If you decide you will be taking students after school, please follow the guidelines:</p></li>
     <ol class="margin-15">
-      <li ><p>Print the authorization file “After School Party“ and deliver it once it has been completed
+      <li ><p>Print the authorization file <a href="static/pdf/party.pdf" class="" target="_blank">“After School Party“</a> and deliver it once it has been completed
       with all the specific information to the main office. It must be delivered at least a day
       in advance.</p></li>
       <li ><p>The parents of your child&#39;s guests must sign their authorization previously at the main
@@ -65,7 +65,7 @@ $page_es=array(
     <li type=square><p>Si decide llevarse alumnos después de clases el día de la fiesta, seguir los siguientes
   lineamientos:</p></li>
     <ol  class="margin-15">
-      <li type=circle><p>Imprimir el archivo de “Fiestas después de clases” y entregarlo firmado a la oficina.
+      <li type=circle><p>Imprimir el archivo de <a href="static/pdf/party-es.pdf" class="" target="_blank">“Fiestas después de clases”</a> y entregarlo firmado a la oficina.
       Deberá ser entregado por lo menos un día previo.</p></li>
       <li type=circle><p>Los padres de los niños invitados deben firmar su autorización en la oficina.</p></li>
       <li type=circle><p>El día de la fiesta, favor de estacionarse por la puerta de Kinder. Los niños serán

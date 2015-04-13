@@ -14,7 +14,8 @@ $page=array(
   <br>
   Click on the image of the website you wish to visit. 
   </p>
-  <iframe frameborder="0" noresize="noresize" src="https://www.symbaloo.com/embed/primary16?bgcolor=ffffff" name="_symFrame" width="740px" height="690px"></iframe>',
+  
+  <iframe frameborder="0" noresize="noresize" src="https://www.symbaloo.com/embed/ces4to-­5to-­6to?" name="_symFrame" width="740px" height="690px"></iframe>',
 
 );
 echo $twig->render('primary-technology.html',array('main_menu'=>$main_menu,'footer'=>$footer,'sidebar'=>$sidebar,'page'=>$page));

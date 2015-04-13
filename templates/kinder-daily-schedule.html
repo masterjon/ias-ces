@@ -1,0 +1,65 @@
+{% extends "layout.html" %}
+{% block content %}
+<div class="row body">
+    {% include 'sidebar-kinder.html' %}
+    <div class="col-sm-9 col-md-10 right-side">
+        <div class="row">
+            <div class="col-sm-12 page-title text-center">
+                <h2>{{page.title}}</h2>
+            </div>
+        </div>        
+         <div class="row">
+            <div class="col-sm-12 margin-top-15 margin-bottom-15"></div>
+            <div class="col-sm-12">
+                <table class="table table-bordered white-bg red-border">
+                  <thead>
+                    <tr>
+                      <th>Time</th>
+                      <th>Actiity</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+
+                      <tr>
+                          <td>7:15 to 7:30</td>
+                          <td>Entrance</td>
+                      </tr> 
+                      <tr>
+                          <td>7:30 to 10:00 </td>
+                          <td>Class time (English or Spanish)</td>
+                      </tr> 
+                      <tr>
+                          <td>10:00 to 10:30 </td>
+                          <td>Lunch Time</td>
+                      </tr>  
+                      <tr>
+                          <td>10:30 to 11:00 /td>
+                          <td>Recess</td>
+                      </tr>                      
+                      <tr>
+                          <td>11:00 to 1:15 pm</td>
+                          <td>Class time (switch to English or Spanish)</td>
+                      </tr>                      
+                      <tr>
+                          <td>1:15 pm to 2:00 pm</td>
+                          <td>Extra-curricular activities</td>
+                      </tr>                      
+
+                   
+                  </tbody>
+                </table>
+            </div>
+        </div>
+        
+    </div>
+</div>
+{% endblock %}
+{% block js %}
+<script type="text/javascript">
+  jQuery(document).ready(function($) {
+    $("li.schools").addClass("active");
+    $("li.kinder").addClass("active");
+    $("li.kinder-daily").addClass("active");
+  });
+</script>
+{% endblock  %}

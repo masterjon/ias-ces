@@ -13,7 +13,7 @@
                 <div class="col-sm-9">
                     <div class="row">
                         <div class="col-sm-4">
-                             <div class="margin-15"><img class="border-blue" src="{{teacher.image}}"></div>
+                             <div class="margin-30"><img class="border-blue" src="{{teacher.image}}"></div>
                         </div>
                         <div class="col-sm-8  text-center">
                             <h2 class="text-big uppercase"><span class="icon-record blue-color"></span>{{teacher.name}}</h2>
@@ -22,7 +22,11 @@
                     </div>      
                 </div>
                 <div class="col-sm-3 margin-top-15 border-left text-center">
-                     <div class="margin-15"><img width="150" src="static/img/kinder-teachers/icon-site-ias-ces.png"></div>
+                     {% if teacher.position == 'Assistant' %}
+                        <div class="margin-15"><img width="150" src=""></div>
+                     {% else %}
+                        <div class="margin-15"><img width="150" src="static/img/kinder-teachers/icon-site-ias-ces.png"></div>
+                     {% endif %}
 
                 </div>
                 <div class="col-sm-10 col-sm-offset-1 text-center ">

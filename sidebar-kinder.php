@@ -2,16 +2,18 @@
 $sidebar= array(
     'title' => 'KINDER', 
     'about' => 'About', 
-    'staff' => 'Staff', 
+    'staff' => 'Cordinators and administrative', 
     'events' => 'Events', 
     'calendar' => 'Calendar', 
     'newsletter' => 'Newsletter', 
-    'standard' => 'Standard', 
-    'teachers_websites' => 'Teachers Websites',
+    'standard' => 'Standards', 
+    'teachers_websites' => 'Teacher Websites',
     'positive_discipline' => 'Positive Discipline', 
     'uniforms' => 'Uniforms',
     'party_guidelines' => 'Party Guidelines and permissions',
     'technology' => 'Technology',
+    'after_school' => 'After School',
+    'daily_schedule' => 'Daily Schedule',
 
     ); 
 ?>

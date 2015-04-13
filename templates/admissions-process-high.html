@@ -1,0 +1,77 @@
+{% extends "layout.html" %}
+{% block slider %}
+  <!-- Indicators -->
+  {# <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+  </ol> #}
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="static/img/admissions/banner-admission-ias-ces.jpg" alt="">
+      <div class="carousel-caption">
+      </div>
+    </div>
+   
+  </div>
+{% endblock  %}
+{% block content %}
+
+<div class="row body">
+    {% include 'sidebar-admissions.html' %}
+    <div class="col-sm-9 col-md-10 right-side">
+        <div class="row">
+            <div class="col-sm-12 page-title text-center">
+                <h2>{{page.title}}</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 ">
+                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat sed error ullam illo nesciunt aliquam officia hic omnis iste nemo distinctio autem ad eos delectus similique architecto, commodi, earum incidunt.
+                </p>
+               
+            </div>
+        </div>
+        <div class="row">
+             <div class="col-sm-12 page-title text-center">
+                <p class="margin-30">{{page.read_evaluation}}</p>
+            </div>
+        </div>
+        <div class="row lightgray-bg">
+            <div class="col-sm-6 col-sm-offset-3 text-center">
+                <a href="static/pdf/ProcessMiddleHighSchool.pdf" class="no-decoration" target="_blank"><h3><span class="icon-record blue-color"></span> MIDDLE / HIGH SHCHOOL</h3></a>
+            </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6">
+            <a href="static/pdf/ApplicationFormkinderandPrimary.pdf" class="no-decoration" target="_blank"><p><img class="margin-15" src="static/img/parents-handbook/pdf-download.png" alt="" width="200">APPLICATION FORM</p></a>
+          </div>
+          <div class="col-sm-6">
+           <a href="static/pdf/primera-visita.pdf" class="no-decoration" target="_blank"> <p><img class="margin-15" src="static/img/parents-handbook/pdf-download.png" alt="" width="200">FIRST VISIT</p></a>
+            
+          </div>
+        </div>
+        <div class="row">
+             <div class="col-sm-12 page-title text-center">
+                <p class="margin-30"> {{page.more_info}}</p>
+            </div>
+        </div>
+        <div class="row lightgray-bg">
+            <div class="col-sm-6 col-sm-offset-3 text-center">
+                <h3><span class="icon-record blue-color"></span> MIDDLE / HIGH SCHOOL</h3>
+                <p><span class="icon-phone"></span> 998(888.88.88)</p>
+                <p><span class="icon-envelope"></span> jane.doe@iasces.com</p>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+{% block js %}
+<script type="text/javascript">
+  jQuery(document).ready(function($) {
+    $("li.admissions").addClass("active");
+    $("li.admissions-process-high").addClass("active");
+    
+  });
+</script>
+{% endblock  %}

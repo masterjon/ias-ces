@@ -26,7 +26,7 @@ $page=array(
     '16' => array('name' => 'Nicté Há Montes de Oca','position' => 'Computer','image' => 'static/img/primary-teachers/nicte-montes-teacher-ces.jpg', 'link' => 'http://missnicte.weebly.com/' ),
     '17' => array('name' => 'Anna Christina Sierra','position' => 'Tech Integration Specialist','image' => 'static/img/primary-teachers/annia-mattos-tech-integration-ces.jpg', 'link' => '' ),
     '18' => array('name' => 'Alfredo Guemez Castillo','position' => 'PE','image' => 'static/img/primary-teachers/alfredo-guemez-teacher-ces.jpg', 'link' => '' ),
-    '19' => array('name' => 'Gisela Rangel','position' => 'Librarian','image' => 'static/img/primary-teachers/gisela-rangel-librarian-ces.jpg', 'link' => '' ),
+    
 
 
    )

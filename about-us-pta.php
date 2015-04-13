@@ -17,6 +17,11 @@ organized by the Parents Association are the Halloween Party in October and the 
         '1' =>   array('name' => 'Brenda Sametz','title' => 'Vice-President' , 'mail' => 'bbsametz@yahoo.com', 'grade' => 'Middle/High School','color' => 'blue'), 
         '2' =>   array('name' => 'Tania Fernandez','title' => 'Secretary' , 'mail' => 'taniav_fernandez@yahoo.com', 'grade' => 'Middle/High School','color' => 'red'), 
         '3' =>   array('name' => 'Veronica Torres','title' => 'Treasurer' , 'mail' => 'verotorres70@hotmail.com', 'grade' => 'Middle/High School','color' => 'blue'), 
+        '4' =>   array('name' => 'Marcela Estrada Menacol','title' => 'President' , 'mail' => 'maesme@yahoo.com', 'grade' => 'kinder/Primary','color' => 'blue'), 
+        '5' =>   array('name' => 'Mayra Graniewicz','title' => 'Vice-President' , 'mail' => '', 'grade' => 'kinder/Primary','color' => 'blue'), 
+        '6' =>   array('name' => 'Lil Fernández Osorio','title' => 'Secretary' , 'mail' => '', 'grade' => 'kinder/Primary','color' => 'blue'), 
+        '7' =>   array('name' => 'Jacqueline Nifco','title' => 'Treasurer' , 'mail' => '', 'grade' => 'kinder/Primary','color' => 'blue'), 
+        
         )
   );
 

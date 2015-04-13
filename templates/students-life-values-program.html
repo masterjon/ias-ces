@@ -1,0 +1,53 @@
+{% extends "layout.html" %}
+{% block slider %}
+  <!-- Indicators -->
+  {# <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+  </ol> #}
+  <!-- Wrapper for slides -->
+  <div  class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="static/img/student-life/banners4-ias-ces.jpg" alt=" Caption 1">
+      <div class="carousel-caption">
+      </div>
+    </div>
+   
+  </div>
+{% endblock  %}
+{% block content %}
+<div class="row body">
+    {% include 'sidebar-students-life.html' %}
+    <div class="col-sm-9 col-md-10 right-side">
+        <div class="row">
+            <div class="col-sm-12 page-title text-center">
+                <h2>{{page.title}}</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-10 col-sm-offset-1 text-justify">
+                <p>Beginning in Kindergarten and all through high school we have implemented a program called “The 6 Pillars of Character”. By working on six basic values we help form our students
+                </p>
+                <p>Our objective is to create a harmonious school environment, to prevent antisocial behaviours and to encouragepositive attitudes, responsible decision making and autonomy.</p>
+                <p>Activities related to each value are performed with the students. The value changes every two months, which allowstime to work on the value by story telling, songs, theatrical representations, games and special assignments.</p>
+                <p>Each grade level is assigned a different value and community service activities so they may experience each value. Activities range from beach clean ups, friendly sport activities with students from other schools,</p>
+                <p><img class="" src=""></p>
+                <p><img src=""></p>
+            </div>
+            <div class="col-sm-6 col-sm-offset-3 text-center">
+              <img src="static/img/student-life/values-program/values-program-animals.jpg">
+              <br>
+              <img src="static/img/student-life/values-program/values-program.jpg">
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+{% block js %}
+<script type="text/javascript">
+  jQuery(document).ready(function($) {
+    $("li.student-life").addClass("active");
+    $("li.life-values-program").addClass("active");
+  });
+</script>
+{% endblock  %}

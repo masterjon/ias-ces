@@ -1,0 +1,113 @@
+{% extends "layout.html" %}
+{% block slider %}
+
+  <div id="mapa" class="col-sm-12" role="listbox">
+  </div>
+<style type="text/css">#mapa{height: 500px; border-top:4px solid #22a7df;}</style>
+
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+        <script>
+          function dos() {
+            var myLatlng = new google.maps.LatLng(21.1653435,-86.8170034);
+            var mapOptions = {
+              center: myLatlng,
+              zoom: 13,
+              mapTypeId: google.maps.MapTypeId.ROADMAP
+            };
+            var map = new google.maps.Map(document.getElementById("mapa"),
+                mapOptions);
+              var image = {
+    url: 'web/image/Contacto/pin.png',
+    // This marker is 20 pixels wide by 32 pixels tall.
+  // size: new google.maps.Size(60, 83),
+    // The origin for this image is 0,0.
+    //origin: new google.maps.Point(0,0),
+    // The anchor for this image is the base of the flagpole at 0,32.
+    //anchor: new google.maps.Point(0, 60)
+  };
+           var marker = new google.maps.Marker({
+            position: myLatlng,
+            map: map,
+            title: 'Mayakoba',
+            icon: image,
+            
+          });
+     
+          };
+
+          google.maps.event.addDomListener(window, 'load', dos);
+            
+        </script>  
+        <div class="col-sm-12 blue-bg">
+          <div class="container">
+            <div class="col-sm-6 formulario" >
+              <div class = "row">
+                
+                <div class = "col-md-10 col-md-offset-1">
+                  <h1 class="text-center white-color">{{page.subtitle}}</h1>
+                  <form action = "mailing.php" method = "POST" role="form" class="form" id="form">
+                    <div class="form-group">
+                      <label class="col-md-2" for="form-nombre"></label>
+                      <div class="col-md-12">
+                        <input type="text" placeholder="{{page.nombre}}"required name="nombre" class="form-control without-borders" id="form-nombre">
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label class="col-md-2" for="form-email"></label>
+                      <div class="col-md-12">
+                        <input type="email" placeholder="{{page.mail}}" required name="email" class="form-control without-borders" id="form-email" >
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label class="col-md-2" for="form-tel"></label>
+                      <div class="col-md-12">
+                        <input type="text" placeholder="{{page.tel}}" required name="telefono" class="form-control without-borders" id="form-tel">
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label class="col-md-2" for="form-mensaje"></label>
+                      <div class="col-md-12">
+                        <textarea name="mensaje" placeholder="{{page.mensaje}}" class="form-control without-borders" id="form-mensaje" rows="3"></textarea>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <button type="submit" class="btn-enviar red-bg"><span class="white-color">{{page.enviar}}</span></button>
+
+                      <span id="response"></span>
+                    </div>
+                  </form>
+                </div>
+              </div>  
+            </div>
+            <div class="col-sm-6 datos-contacto">
+              <div class="row">
+                <div class = "col-md-8 col-md-offset-2">
+                  <h2>Kinder/Primary</h2>
+                  <h4>882.03.83</h4>
+                  <h4>primary@iasces.com</h4>
+                </div>
+                <div class = "col-md-8 col-md-offset-2">
+                  <h2>Middle/High School</h2>
+                  <h4>882.22.19</h4>
+                  <h4>highschool@iasces.com</h4>
+                </div>
+                <div class = "col-md-8 col-md-offset-2">
+                  <p>AV. Colegios SM 306 Mza. 17 Lt. 39, Blvd. Colosio Km 5 Cancún Q. Roo </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> 
+{% endblock  %}
+
+
+{% block content %}
+   <div></div>
+{% endblock %}
+{% block js %}
+<script type="text/javascript">
+  jQuery(document).ready(function($) {
+    $("li.contact").addClass("active");
+  });
+</script>
+{% endblock  %}

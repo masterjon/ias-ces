@@ -4,9 +4,10 @@ $sidebar=array(
     'events' => 'Events', 
     'library' => 'Library', 
     'tecnology' => 'Technology', 
-    'coffe_shop' => 'Coffe Shop', 
+    'coffe_shop' => 'Cafeteria', 
     'recycle' => 'Recycle', 
     'health' => 'Health', 
-    'community_service' => 'Community Service'
+    'community_service' => 'Community Service',
+    'values_program' => 'Values Program'
     );
  ?>

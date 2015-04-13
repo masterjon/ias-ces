@@ -4,7 +4,7 @@ require 'sidebar-students-life.php';
 $page=array(
     'metaTitle'=>'',
     'metaDescription'=>'',
-    'title' => 'Coffe Shop',
+    'title' => 'Cafeteria',
     'content' => '<p>IAS has a cafeteria in the middle and high school building which is run independently from the school. 
 
 Middle and high school students have access to it on a regular basis. Primary and kindergarten students are 

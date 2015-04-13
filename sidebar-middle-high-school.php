@@ -2,9 +2,9 @@
 $sidebar = array(
     'title' => 'MIDDLE / HIGH SCHOOL',
     'about' => 'About',
-    'staff' => 'Staff',
+    'staff' => 'Administrative Staff',
     'schedule' => 'Dialy Schedule', 
-    'teachers' => 'Teachers',
+    'teachers' => 'Teacher Website',
     'calendar' => 'Calendar',
     'events' => 'Events',
     'academy' => 'Academic Program',
@@ -13,6 +13,6 @@ $sidebar = array(
     'finding_school' => 'Finding a School',
     'testing' => 'Testing',
     'financial_aid' => 'Financial Aid',
-    'scholarship' => 'Scholarship',
+    'scholarship' => 'Convenio',
     );
  ?>
