@@ -5,7 +5,7 @@ require 'sidebar-middle-high-school.php';
 $page=array(
 	'metaTitle'=>'',
     'metaDescription'=>'',
-    'title' => 'Coordinators & Staff',
+    'title' => 'Coordinators and administrative staff',
     'content' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum animi obcaecati libero ex alias atque numquam quibusdam id facere molestiae suscipit, consectetur velit laborum officiis odit illo consequatur ullam minima.',
 	'list' => array(
 		'0' => array('name' => 'Viviana Martínez', 'position' => 'Reception and Admissions', 'email' => 'highschool@iasces.com'),

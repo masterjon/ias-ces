@@ -2,9 +2,9 @@
 $sidebar = array(
     'title' => 'MIDDLE / HIGH SCHOOL',
     'about' => 'About',
-    'staff' => 'Administrative Staff',
+    'staff' => 'Coordinators and administrative staff',
     'schedule' => 'Dialy Schedule', 
-    'teachers' => 'Teacher Website',
+    'teachers' => 'Teacher Websites',
     'calendar' => 'Calendar',
     'events' => 'Events',
     'academy' => 'Academic Program',

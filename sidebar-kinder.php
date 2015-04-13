@@ -2,7 +2,7 @@
 $sidebar= array(
     'title' => 'KINDER', 
     'about' => 'About', 
-    'staff' => 'Cordinators and administrative', 
+    'staff' => 'Coordinators and administrative staff', 
     'events' => 'Events', 
     'calendar' => 'Calendar', 
     'newsletter' => 'Newsletter', 
