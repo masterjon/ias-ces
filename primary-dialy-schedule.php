@@ -4,7 +4,7 @@ require 'sidebar-primary.php';
 $page=array(
 	'metaTitle'=>'',
     'metaDescription'=>'',
-    'title' => 'DIALY SCHEDULE',
+    'title' => 'DAILY SCHEDULE',
     'first_to_third' => "1st through 3rd Grade's Schedule",
     'fourth_to_sixth' => "4th through 6th Grade's Schedule",
     'time' => 'TIME',

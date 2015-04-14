@@ -13,15 +13,15 @@ different times of the year. There are two sections of the PA, primary/kinder an
 for each class and officers are elected at the Parent / Teacher Meetings held in September. Some important events 
 organized by the Parents Association are the Halloween Party in October and the Posada in December.</p>',
     'pta_highschool' => array(
-        '0' =>   array('name' => 'Roberta Wohler','title' => 'President' , 'mail' => 'robertawohler@gmail.com', 'grade' => 'Middle/High School','color' => 'red'), 
-        '1' =>   array('name' => 'Brenda Sametz','title' => 'Vice-President' , 'mail' => 'bbsametz@yahoo.com', 'grade' => 'Middle/High School','color' => 'blue'), 
-        '2' =>   array('name' => 'Tania Fernandez','title' => 'Secretary' , 'mail' => 'taniav_fernandez@yahoo.com', 'grade' => 'Middle/High School','color' => 'red'), 
-        '3' =>   array('name' => 'Veronica Torres','title' => 'Treasurer' , 'mail' => 'verotorres70@hotmail.com', 'grade' => 'Middle/High School','color' => 'blue'), 
-        '4' =>   array('name' => 'Marcela Estrada Menacol','title' => 'President' , 'mail' => 'maesme@yahoo.com', 'grade' => 'kinder/Primary','color' => 'blue'), 
-        '5' =>   array('name' => 'Mayra Graniewicz','title' => 'Vice-President' , 'mail' => '', 'grade' => 'kinder/Primary','color' => 'blue'), 
-        '6' =>   array('name' => 'Lil Fernández Osorio','title' => 'Secretary' , 'mail' => '', 'grade' => 'kinder/Primary','color' => 'blue'), 
-        '7' =>   array('name' => 'Jacqueline Nifco','title' => 'Treasurer' , 'mail' => '', 'grade' => 'kinder/Primary','color' => 'blue'), 
-        
+        '0' =>   array('name' => 'Marcela Estrada Menacol','title' => 'President' , 'mail' => 'maesme@yahoo.com', 'grade' => 'kinder/Primary','color' => 'blue'), 
+        '1' =>   array('name' => 'Mayra Graniewicz','title' => 'Vice-President' , 'mail' => '', 'grade' => 'kinder/Primary','color' => 'blue'), 
+        '2' =>   array('name' => 'Lil Fernández Osorio','title' => 'Secretary' , 'mail' => '', 'grade' => 'kinder/Primary','color' => 'blue'), 
+        '3' =>   array('name' => 'Jacqueline Nifco','title' => 'Treasurer' , 'mail' => '', 'grade' => 'kinder/Primary','color' => 'blue'), 
+        '4' =>   array('name' => 'Roberta Wohler','title' => 'President' , 'mail' => 'robertawohler@gmail.com', 'grade' => 'Middle/High School','color' => 'red'), 
+        '5' =>   array('name' => 'Brenda Sametz','title' => 'Vice-President' , 'mail' => 'bbsametz@yahoo.com', 'grade' => 'Middle/High School','color' => 'blue'), 
+        '6' =>   array('name' => 'Tania Fernandez','title' => 'Secretary' , 'mail' => 'taniav_fernandez@yahoo.com', 'grade' => 'Middle/High School','color' => 'red'), 
+        '7' =>   array('name' => 'Veronica Torres','title' => 'Treasurer' , 'mail' => 'verotorres70@hotmail.com', 'grade' => 'Middle/High School','color' => 'blue'), 
+
         )
   );
 

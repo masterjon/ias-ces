@@ -49,8 +49,8 @@ $page_en=array(
   		'Trip' =>array('titulo'=>'Field Trips', 'des'=>'<p>To complement the curriculum, trips are organized during the year
 													to archaeological sites, museums, municipal services e.g. fire
 													station, zoos and restaurants.</p>', 'image'=>'static/img/events-primary/field-trip-gallery.jpg', 'thumbnail'=>'static/img/events-primary/field-trips-ces.jpg', 'thumbnailh'=>'static/img/events-primary/field-trips-ces-hover.jpg'),
-  		'Pagenat' =>array('titulo'=>'Holiday Pageant','des'=>'<p>This is when we recognize and celebrate the different holiday
-																traditions around the world through song and dance.</p>', 'image'=>'http://placehold.it/770x300&text=Pageant', 'thumbnail'=>'http://placehold.it/252x160&text=Pagenat', 'thumbnailh'=>'static/img/events-primary/book-week-ces-hover.jpg'),
+  		'Pagenat' =>array('titulo'=>'Christmas Pageant','des'=>'<p>This is when we recognize and celebrate the different holiday
+																traditions around the world through song and dance.</p>', 'image'=>'static/img/events-primary/christmas-pageant-gallery.jpg', 'thumbnail'=>'static/img/events-primary/christmas-pageant.jpg', 'thumbnailh'=>'static/img/events-primary/christmas-pageant-hover.jpg'),
   		'Ribbon' =>array('titulo'=>'Red Ribbon Week','des'=>'<p>Established originally in the USA, this movement emphasizes good
 																decision making and respect. Every day throughout the week
 																children participate in thought provoking activities.</p>', 'image'=>'static/img/events-primary/red-ribbon-week-gallery.jpg', 'thumbnail'=>'static/img/events-primary/red-ribbon-week-ces.jpg', 'thumbnailh'=>'static/img/events-primary/red-ribbon-week-ces-hover.jpg'),
