@@ -64,7 +64,7 @@ $page_en=array(
 														through the vehicle of scientific investigation.</p>', 'image'=>'static/img/events-primary/science-fair-gallery.jpg', 'thumbnail'=>'static/img/events-primary/science-fair-ces.jpg', 'thumbnailh'=>'static/img/events-primary/science-fair-ces-hover.jpg'),
   		'Flag' =>array('titulo'=>'Flag Ceremonies','des'=>'<p>Every Monday students learn the state and
 													national anthems as part of their civic education.</p>', 'image'=>'static/img/events-primary/flag-ceremony-gallery.jpg', 'thumbnail'=>'static/img/events-primary/flag-ceremony-ces.jpg', 'thumbnailh'=>'static/img/events-primary/flag-ceremony-ces-hover.jpg'),
-      'hats' =>array('titulo'=>'Easter Hats Content','des'=>'<p></p>',  'image'=>'static/img/events-primary/kinder-events-gallery-hats.jpg', 'thumbnail'=>'static/img/events-primary/kinder-event-hats.jpg', 'thumbnailh'=>'static/img/events-primary/kinder-event-hats-hover.jpg'),
+      //'hats' =>array('titulo'=>'Easter Hats Content','des'=>'<p></p>',  'image'=>'static/img/events-primary/kinder-events-gallery-hats.jpg', 'thumbnail'=>'static/img/events-primary/kinder-event-hats.jpg', 'thumbnailh'=>'static/img/events-primary/kinder-event-hats-hover.jpg'),
 
   		),
 
