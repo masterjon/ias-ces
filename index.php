@@ -5,7 +5,7 @@ require 'layout.php';
 $page_en=array(
   'metaTitle'=>'',
   'metaDescription'=>'',
-  'title' => 'Schools',
+  'title' => 'GRADES',
   'subtitle' => 'Upcoming Events',
   );
 
