@@ -45,7 +45,7 @@ $page_en=array(
 						<li class="margin-15">g. 6 small (4x4) black and white photographs</li>
 						<li class="margin-15">h. Vaccination certificate (only for students entering Kinder I​</li>
     				</ul>
-    			<li type="disc" class="margin-15"><a href="https://docs.google.com/file/d/0B6jaVMkzBXoGWXZxX0NncHVkNzQ/edit" target="_blank">Registration Fee Payment</li>
+    			<li type="disc" class="margin-15"><a href="https://docs.google.com/file/d/0B6jaVMkzBXoGWXZxX0NncHVkNzQ/edit" target="_blank">Registration Fee Payment</a></li>
     		</ul>
     </ol>
     <p>Applicants mid­year must bring their partial report card expedited by SEP or a letter by their school
