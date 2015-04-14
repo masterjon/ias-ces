@@ -4,7 +4,7 @@ require 'sidebar-about-us.php';
 $page=array(
     'metaTitle'=>'',
   'metaDescription'=>'',
-  'title' => 'Parent Association',
+  'title' => 'Parents Association',
   'content' => '<p>The school recognizes the important role that parents play in education and seeks to form a partnership between 
 home and school. Parents are invited and encouraged to participate in a variety of ways. One way for parents to get 
 involved is through the Parent Association. </p><p>
