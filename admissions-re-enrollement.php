@@ -4,7 +4,7 @@ require 'sidebar-admissions.php';
 $page=array(
     'metaTitle'=>'',
     'metaDescription'=>'',
-    'title' => 'RE-ENROLLEMENT',
+    'title' => 'RE-ENROLLMENT',
     'application' => 'APPLICATION FORM',
     'content' => ''
     );
