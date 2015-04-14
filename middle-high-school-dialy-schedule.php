@@ -4,7 +4,7 @@ require 'sidebar-middle-high-school.php';
 $page=array(
 	'metaTitle'=>'',
     'metaDescription'=>'',
-    'title' => 'DIALY SCHEDULE',
+    'title' => 'DAILY SCHEDULE',
     'time' => 'TIME',
     'activity' => 'ACTIVITY',
     'table' => array(
