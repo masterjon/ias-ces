@@ -14,8 +14,10 @@ $page=array(
   <br>
   Click on the image of the website you wish to visit. 
   </p>
-  
-  <iframe frameborder="0" noresize="noresize" src="https://www.symbaloo.com/embed/ces4to-­5to-­6to?" name="_symFrame" width="740px" height="690px"></iframe>',
+  <h3>1st, 2nd and 3rd Grade</h3>
+  <iframe frameborder="0" noresize="noresize" src="https://www.symbaloo.com/embed/ceswebmix?" name="_symFrame" width="1010px" height="600px"></iframe>
+  <h3>4th, 5th and 6th Grade</h3>
+   <iframe frameborder="0" noresize="noresize" src="https://www.symbaloo.com/embed/ces4to-5to-6to?" name="_symFrame" width="920px" height="600px"></iframe>',
 
 );
 echo $twig->render('primary-technology.html',array('main_menu'=>$main_menu,'footer'=>$footer,'sidebar'=>$sidebar,'page'=>$page));
