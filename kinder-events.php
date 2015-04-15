@@ -23,28 +23,17 @@ $page_en=array(
 															  trip to the cinema, the zoo and water park to name just a few.</p>', 'image'=>'static/img/events-primary/childres-day-gallery.jpg', 'thumbnail'=>'static/img/events-primary/childrens-day-ces.jpg', 'thumbnailh'=>'static/img/events-primary/childrens-day-ces-hover.jpg'),
   		'Father' =>array('titulo'=>'Father&#39;s Day','des'=>'<p>This culminates through a soccer tournament and a marathon
 														  school for fathers only.</p>', 'image'=>'static/img/events-primary/fathers-day-gallery.jpg', 'thumbnail'=>'static/img/events-primary/fathers-day-ces.jpg', 'thumbnailh'=>'static/img/events-primary/fathers-day-ces-hover.jpg'),
-  		'Graduation' =>array('titulo'=>'Graduation Ceremony and Trip','des'=>'<p>Each beginning has an end, it is very important to appreciate the success that our students have and the
-																			  graduation is the culmination of their primary. This is a formal ceremony where we record their memories of their
-																			  time in school. It is important that parents participate
-																			  making this ceremony a special one.</p>
-																			  <p>Different locations have been chosen to bring to an end the
-																			  elementary stage.</p>', 'image'=>'http://placehold.it/770x300&text=Graduation', 'thumbnail'=>'http://placehold.it/252x160&text=Graduation', 'thumbnailh'=>'static/img/events-primary/book-week-ces-hover.jpg'),
+  		
   		'Halloween' =>array('titulo'=>'Halloween','des'=>'<p>Our school is bilingual and unites both American and
 															Mexican traditions. The PTA organizes a themed event
 															which includes kindergarten through 12th grade. It is a
 															family event and everyone is invited.</p>', 'image'=>'static/img/events-primary/halloween-gallery.jpg', 'thumbnail'=>'static/img/events-primary/halloween-ces.jpg', 'thumbnailh'=>'static/img/events-primary/halloween-ces-hover.jpg'),
-  		'Olympics' =>array('titulo'=>'Mini Olympics','des'=>'<p>It is our priority to stimulate our students in an active
-															environment. Every year we celebrate a different country
-															or sporting event. During several weeks the children work
-															towards this event that entails many activities: wheel race,
-															relay, obstacle course, penalty kick etc. Parents enjoy
-															participating as well.</p>', 'image'=>'static/img/events-primary/mini-olympics-gallery.jpg', 'thumbnail'=>'static/img/events-primary/mini-olympics-ces.jpg', 'thumbnailh'=>'static/img/events-primary/mini-olympics-ces-hover.jpg'),
   		
   		'Recital' =>array('titulo'=>'Poetry Recital','des'=>'<p>Using the ability of memory, students present literature written by
 															 Hispanic poets.</p>', 'image'=>'static/img/events-primary/poetry-recytal-gallery.jpg', 'thumbnail'=>'static/img/events-primary/poetry-recytal-ces.jpg', 'thumbnailh'=>'static/img/events-primary/poetry-recytal-ces-hover.jpg'),
-  		'Show' =>array('titulo'=>'Talent Show','des'=>'<p>Our children show their best aptitudes and talents to the
-																whole school in dance, song, gymnastics, magic, etc. This
-																is not a competition.</p>', 'image'=>'static/img/events-primary/talent-show-gallery.jpg', 'thumbnail'=>'static/img/events-primary/talent-show-ces.jpg', 'thumbnailh'=>'static/img/events-primary/talent-show-ces-hover.jpg'),
+  		'Book' =>array('titulo'=>'Book Week','des'=>'<p>Through a series of fun activities, this week celebrates our joy of
+												reading. We also recognize the importance of giving credit to other
+												people&#39;s creative</p>', 'image'=>'static/img/events-primary/book-week-gallery.jpg', 'thumbnail'=>'static/img/events-primary/book-week-ces.jpg', 'thumbnailh'=>'static/img/events-primary/book-week-ces-hover.jpg'),
   		'Thanks' =>array('titulo'=>'Thanksgiving','des'=>'<p>Nop hay descripcion</p>', 'image'=>'http://placehold.it/770x300&text=Thanksgiving', 'thumbnail'=>'http://placehold.it/252x160&text=Thanksgiving', 'thumbnailh'=>'static/img/events-primary/book-week-ces-hover.jpg'),
   		'Trip' =>array('titulo'=>'Field Trips', 'des'=>'<p>To complement the curriculum, trips are organized during the year
 													to archaeological sites, museums, municipal services e.g. fire
