@@ -7,7 +7,7 @@ $page_en=array(
   'title' => 'Scholarship',
   'subtitle' => '',
   'content'=>'<h4>Instituto Suizo de Gastronomía y Hotelería  (ISU)</h4>
-  			  <p><a href="www.isu.edu.mx" target="_blank">www.isu.edu.mx</a></p>
+  			  <p><a href="http://www.isu.edu.mx" target="_blank">www.isu.edu.mx</a></p>
   			  <ul class="margin-15 text-justify">
   			  	<li>Por cada generación  del último ciclo escolar   1  (una)  beca  del  50% al alumno con promedio mínimo 9.0 (nueve) acumulado en los 3 años de bachillerato; esta beca será valida para estudiar en el ISU cualquiera de sus licenciaturas y dicha beca podrá ser renovada mientras se mantenga   un promedio   mínimo de 9.0 (nueve) sin presentar materias reprobadas y el convenio siga vigente.</li> <br>
   			  	<li>Por cada generación del último ciclo escolar  2 (dos) becas del 25% a los alumnos con promedio mínimo 8.5 (ocho punto cinco) acumulado  en los 3  años  de  bachillerato;  esta  beca  será  valida  para  estudiar  en  el  ISU cualquiera de sus licenciaturas y dicha beca  podrá ser renovada mientras se mantenga   un promedio  mínimo de 8.5 (ocho punto cinco) sin presentar materias reprobadas y el convenio siga vigente.</li><br>
@@ -18,7 +18,7 @@ $page_en=array(
 				No cause baja</li><br>
   			  </ul>
   			  <h4>Tecnologico de Monterrey Campus Puebla</h4>
-  			  <p><a href="www.itesm.edu/wps/wcm/connect/Campus/PUE/Puebla" target="_blank">www.itesm.edu</a></p>
+  			  <p><a href="http://www.itesm.mx/wps/wcm/connect/Campus/PUE/Puebla" target="_blank">www.itesm.edu</a></p>
   			  <p class="text-justify">El reconocimiento consiste en la asignación de becas la cual se realiza con base en los resultados de la evaluación de los alumnos de 5o semestre, a quienes se les aplica un examen diagnóstico en las áreas de verbal, matemáticas y de redacción indirecta (PAA).  El puntaje máximo del examen diagnostico es de 2,400 puntos.</p>
   			  <ul class="margin-15 text-justify">
 				<li><b>Beca de Excelencia </b><br>
@@ -32,7 +32,7 @@ $page_en=array(
 				La beca del 50% pura puede ser transferible del 1o al 5o mejor promedio de la generación</li>
   			  </ul>
   			  <h4>Universidad Autónomo de Guadalajara  (UAG)</h4>
-  			  <p><a href="www.uag.mx" target="_blank">www.uag.mx</a></p>
+  			  <p><a href="http://www.uag.mx/" target="_blank">www.uag.mx</a> </p>
   			  <ul class="margin-15 text-justify">
 				<li>Con un promedio de 8.0 minimo – no hay examen de admision <br>
 					Hay que hacer los demas requisitos de tramite de admision</li>
