@@ -4,7 +4,7 @@ require 'sidebar-middle-high-school.php';
 $page_en=array(
   'metaTitle'=>'',
   'metaDescription'=>'',
-  'title' => 'Scholarship',
+  'title' => 'Convenio',
   'subtitle' => '',
   'content'=>'<h4>Instituto Suizo de Gastronomía y Hotelería  (ISU)</h4>
   			  <p><a href="http://www.isu.edu.mx" target="_blank">www.isu.edu.mx</a></p>

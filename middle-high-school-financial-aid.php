@@ -4,7 +4,7 @@ require 'sidebar-middle-high-school.php';
 $page_en=array(
   'metaTitle'=>'',
   'metaDescription'=>'',
-  'title' => 'Paying for School',
+  'title' => 'Financial Aid',
   'subtitle' => '',
   'content'=>'<p>One of the most important aspects of planning for a university career is developing a budget well in advance. Have a very honest conversation with your parents about exactly how much they are willing to pay for your education. You need a specific number. Be aware that if you are not a US citizen or permanent resident, you cannot qualify for Federal Financial Aid in the US. However, anyone can qualify for institutional money. The college that you are applying to has its own funds. Fill out the paperwork, and they will tell you if youve qualified for institutional money.</p>
   			  <p>Do not think of the number your parents come up with as the maximum tuition/ fees/books/room and board amount that you should look for when you re applying to schools. For example, your parents can only pay $30,000, and you want to apply to a school. Having only $14,000, doesn t rule out the possibility of going to that school! Financial aid is often available and you might be able to make it work. It depends entirely on the school.</p>

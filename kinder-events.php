@@ -38,8 +38,8 @@ $page_en=array(
   		'Trip' =>array('titulo'=>'Field Trips', 'des'=>'<p>To complement the curriculum, trips are organized during the year
 													to archaeological sites, museums, municipal services e.g. fire
 													station, zoos and restaurants.</p>', 'image'=>'static/img/events-primary/field-trip-gallery.jpg', 'thumbnail'=>'static/img/events-primary/field-trips-ces.jpg', 'thumbnailh'=>'static/img/events-primary/field-trips-ces-hover.jpg'),
-  		'Pagenat' =>array('titulo'=>'Christmas Pageant','des'=>'<p>This is when we recognize and celebrate the different holiday
-																traditions around the world through song and dance.</p>', 'image'=>'static/img/events-primary/christmas-pageant-gallery.jpg', 'thumbnail'=>'static/img/events-primary/christmas-pageant.jpg', 'thumbnailh'=>'static/img/events-primary/christmas-pageant-hover.jpg'),
+  		'Pagenat' =>array('titulo'=>'Decenber Festival','des'=>'<p>This is when we recognize and celebrate the different holiday
+																traditions around the world through song and dance.</p>', 'image'=>'static/img/events-primary/december-festival-gallery.jpg', 'thumbnail'=>'static/img/events-primary/kinder-events-december-festival.jpg', 'thumbnailh'=>'static/img/events-primary/kinder-events-december-festival-hover.jpg'),
   		'Ribbon' =>array('titulo'=>'Red Ribbon Week','des'=>'<p>Established originally in the USA, this movement emphasizes good
 																decision making and respect. Every day throughout the week
 																children participate in thought provoking activities.</p>', 'image'=>'static/img/events-primary/red-ribbon-week-gallery.jpg', 'thumbnail'=>'static/img/events-primary/red-ribbon-week-ces.jpg', 'thumbnailh'=>'static/img/events-primary/red-ribbon-week-ces-hover.jpg'),

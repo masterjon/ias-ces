@@ -68,7 +68,7 @@ $page_en=array(
   		'Mathletics' =>array('titulo'=>'Mathletics Week','des'=>'<p>A math competition where students compete against children from other parts of the world.</p>',  'image'=>'http://placehold.it/770x300&text=Mathletics', 'thumbnail'=>'http://placehold.it/252x160&text=Mathletics Week', 'thumbnailh'=>'static/img/events-primary/spelling-bee-ces-hover.jpg'),
   		'Code' =>array('titulo'=>'Hour of Code','des'=>'<p>A week where students are introduced to computer programming through a series of online games.</p>',  'image'=>'http://placehold.it/770x300&text=Hour of Code', 'thumbnail'=>'http://placehold.it/252x160&text=Hour of Code', 'thumbnailh'=>'static/img/events-primary/spelling-bee-ces-hover.jpg'),
       'Values' =>array('titulo'=>'Values Program','des'=>'<p>Annual program based on the basic human values and how we may use them in our community.</p>',  'image'=>'http://placehold.it/770x300&text=Values Program', 'thumbnail'=>'http://placehold.it/252x160&text=Values Program', 'thumbnailh'=>'static/img/events-primary/spelling-bee-ces-hover.jpg'),
-  		'hats' =>array('titulo'=>'Easter Hats Content','des'=>'<p></p>',  'image'=>'static/img/events-primary/primary-events-gallery-hats.jpg', 'thumbnail'=>'static/img/events-primary/primary-events-hats.jpg', 'thumbnailh'=>'static/img/events-primary/primary-events-hats-hover.jpg'),
+  		
 
   		),
 
