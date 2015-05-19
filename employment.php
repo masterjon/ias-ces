@@ -1,6 +1,6 @@
 <?php require_once "twig_instance.php";
 require 'layout.php';
-require 'sidebar-middle-high-school.php';
+//require 'sidebar-middle-high-school.php';
 $page=array(
 	'metaTitle'=>'',
     'metaDescription'=>'',
@@ -16,5 +16,5 @@ $page=array(
 		<p>The International  American School of Cancun adheres to a policy of nondiscrimination in  employment and educational programs/activities and strives affirmatively to  provide equal opportunity for all. &nbsp;We prohibit&nbsp;discrimination  against employees or applicants on the basis of sex, race, color, ethnic or  national origin, religion, marital status, disability, genetic information,  age, political beliefs, sexual orientation, gender, gender identification,  social and family background, linguistic preference, pregnancy, and any other  legally prohibited basis. </p>
 		<h1 class="text-center"><img src="static/img/employment/employ3.jpg" width="500" height="289"></h1></div>'
 );
-echo $twig->render('middle-high-school-employment.html',array('main_menu'=>$main_menu,'footer'=>$footer,'sidebar'=>$sidebar,'page'=>$page));
+echo $twig->render('middle-high-school-employment.html',array('main_menu'=>$main_menu,'footer'=>$footer,'page'=>$page));
 ?>

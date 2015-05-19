@@ -18,8 +18,9 @@ $main_menu_en=array(
     'primary'=>'Primary',
     'middle_high'=>'Middle/High School',
     'contact'=>'Contact',
+    'employment'=>'Employment',
     'contact_us' => 'Contact Us',
-    'search'=> 'Search',
+    //'search'=> 'Search',
     'lang_redirect'=>$lang_redirect,
     'lang'=>LANG
     );
@@ -33,8 +34,9 @@ $main_menu_es=array(
     'primary'=>'Primary',
     'middle_high'=>'Middle/High School',
     'contact'=>'Contacto',
+    'employment'=>'Employment',
     'contact_us' => 'Contactanos',
-    'search'=> 'Buscar',
+    //'search'=> 'Buscar',
     'lang_redirect'=>$lang_redirect,
     'lang'=>LANG
     );

@@ -14,6 +14,7 @@ $page=array(
 		'3' => array('name' => 'Mardelis Arevalo', 'position' => 'Cashier', 'email' => 'cashier@iasces.com'),
 		'4' => array('name' => 'Raymundo Puc', 'position' => 'Accountant', 'email' => ''),
 		'5' => array('name' => 'Flor Avila', 'position' => 'Business Administrator', 'email' => 'floravila@iasces.com'),
+		'6' => array('name' => 'Juan Pedro Zambonini', 'position' => '', 'email' => ''),
 	)
 );
 echo $twig->render('middle-high-school-staff.html',array('main_menu'=>$main_menu,'footer'=>$footer,'sidebar'=>$sidebar,'page'=>$page));

@@ -53,7 +53,7 @@ $page_en=array(
 						<li type="disc" class="margin-15">Recent Medical Certificate</li>
 						<li type="disc" class="margin-15">Legal Guardians Identification</li>
 						<li type="disc" class="margin-15">Proof of Residency (for example, phone or water bill)</li>
-						<li type="disc" class="margin-15">Immigration Documents (for foreign students)>/li>
+						<li type="disc" class="margin-15">Immigration Documents (for foreign students)</li>
     				</ul>
     			
     		</ul>

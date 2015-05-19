@@ -19,7 +19,7 @@ $page=array(
     '9' => array('name' => 'Juan Cetina Sánchez','position' => 'Fourth Grade Spanish','image' => 'static/img/primary-teachers/juan-cetina-teacher-ces.jpg', 'link' => 'http://cescuartogradoesp.weebly.com/' ),
     '10' => array('name' => 'Valentyna Guzychenko','position' => 'Fifth Grade English','image' => 'static/img/primary-teachers/valentyna-guzychenko-teacher-ces.jpg', 'link' => 'http://cesfifthgrade.weebly.com/' ),
     '11' => array('name' => 'Ana Luz López Leyva','position' => 'Fifth Grade Spanish','image' => 'static/img/primary-teachers/ana-luz-lopez-teacher-ces.jpg', 'link' => 'http://cesquintoluzgradoesp.weebly.com/' ),
-    '12' => array('name' => 'Malena Cocom','position' => 'Sixth Grade English','image' => 'static/img/primary-teachers/malena-cocom-teacher-ces.jpg', 'link' => 'http://cessixthgrade.weebly.com/' ),
+    '12' => array('name' => 'Elena Cocom','position' => 'Sixth Grade English','image' => 'static/img/primary-teachers/malena-cocom-teacher-ces.jpg', 'link' => 'http://cessixthgrade.weebly.com/' ),
     '13' => array('name' => 'Manuel Pérez Tamayo','position' => 'Sixth Grade Spanish','image' => 'static/img/primary-teachers/manuel-perez-tacher-ces.jpg' , 'link' => 'http://cessextogradoesp.weebly.com/'),
     '14' => array('name' => 'Lorena Mostkoff','position' => 'Psychologist','image' => 'static/img/primary-teachers/lorena-kostkoff-psychologist-ces.jpg', 'link' => 'http://psychologyces.weebly.com/' ),
     '15' => array('name' => 'Juan Pedro Zambonini','position' => 'Music','image' => 'static/img/primary-teachers/juan-pedro-teacher.jpg', 'link' => '' ),
