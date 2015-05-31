@@ -5,24 +5,28 @@ $page=array(
     'metaTitle'=>'',
     'metaDescription'=>'',
     'title' => 'Technology',
-    'content' => '<p>In IAS we recognize that technology and internet are part of our everyday life, and so it is essential to teach
+    'content' => '<p>In IAS we recognize that technology and internet are part of our everyday life, and so it is essential to teach students how to use 
 
-students how to use them correctly and responsibly. Our mission is based on a school wide commitment of 
+them correctly and responsibly. Our mission is based on a school wide commitment of continual growth and the wise application of 
 
-continual growth and the wise application of technology as well as modeling responsible digital citizenship for 
+technology as well as modeling responsible digital citizenship for our community. For this reason, a Responsible Use Policy has been 
 
-our community.</p><p>Kindergarten focuses on learning and recognizing parts of a computer and their functions, as well as, the 
+created. The Policy guidelines apply to all digital devices and are linked to IAS Values.</p>
+<p>Each academic level of schooling has a different focus:</p>
+<p>Kindergarten focuses on learning and recognizing parts of a computer and their functions, as well as, the development of motor skills with 
 
-development of motor skills with the use of the mouse and the connection between the screen and mouse.</p><p>In Primary students will collaborate to integrate technology tools and skills to enhance learning for 21st 
+the use of the mouse and the connection between the screen and mouse.</p>
+<p>In Primary students will collaborate to integrate technology tools and skills to enhance learning for 21st century skills preparation. The 
 
-century skills preparation. The school has a computer lab and ipads which are used in the classroom to aid 
+school has a computer lab and ipads which are used in the classroom  to aid in their learning experience.</p>
+<p>Middle school centers around Microsoft office applications.</p>
+<p>In High school students develop design skills using Adobe tools and programming.</p>
+<p>Both Middle and High school students have access to ipads in the classroom, a computer lab equipped with MAC desktops and a library
 
-in their learning experience.</p><p>Middle school centers around Microsoft office applications</p><p>In High school students develop design skills using Adobe tools and programming.</p>
-<p>Both Middle and High school students have access to ipads in the classroom, a computer lab equipped with 
-
-MAC desktops and a library with MAC desktops as well. Internet service is provided for students who bring 
-
-their laptops or tablets.</p>' 
+with MAC desktops as well. Internet service is provided for students who bring their laptops or tablets.</p>
+<p><a href="static/pdf/MiddleHighSchool.pdf" target="_blank">Middle/High Internet Policies.</a></p> 
+<p><a href="static/pdf/PrimaryResponsibleUsePolicy.pdf" target="_blank">Primary Internet Policies</a></p> 
+<p><a href="static/pdf/TechnologyforWebsite.pdf" target="_blank">Internet acceptable use policy.</a></p>' 
 );
 
 echo $twig->render('students-life-tecnology.html',array('main_menu'=>$main_menu,'footer'=>$footer,'sidebar'=>$sidebar,'page'=>$page));

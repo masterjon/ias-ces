@@ -14,13 +14,13 @@ $page_en=array(
   		'Book' =>array('titulo'=>'Book Week','des'=>'<p>Through a series of fun activities, this week celebrates our joy of
 												reading. We also recognize the importance of giving credit to other
 												people&#39;s creative</p>', 'image'=>'static/img/events-primary/book-week-gallery.jpg', 'thumbnail'=>'static/img/events-primary/book-week-ces.jpg', 'thumbnailh'=>'static/img/events-primary/book-week-ces-hover.jpg'),
-  		'Mother' =>array('titulo'=>'Mother&#39;s Day','des'=>'<p>Mother ́s are celebrated in an innovative way. Every
-															  different.</p>', 'image'=>'static/img/events-primary/mothers-day-gallery.jpg', 'thumbnail'=>'static/img/events-primary/mothers-day-ces.jpg', 'thumbnailh'=>'static/img/events-primary/mothers-day-ces-hover.jpg'),
+  		'Mother' =>array('titulo'=>'Mother&#39;s Day','des'=>'<p>Mothers are celebrated in an innovative way. Every
+															  different.</p>', 'image'=>'static/img/events-primary/kinder-mothers-day-gallery.jpg', 'thumbnail'=>'static/img/events-primary/kinder-mothers-day-ces.jpg', 'thumbnailh'=>'static/img/events-primary/kinder-mothers-day-ces-hover.jpg'),
   		'Dead' =>array('titulo'=>'Day of the Dead','des'=>'<p>It is very important to keep our traditions. The Day of the
 															Dead is a Mexican festival and we celebrate it with tombs,
 															rhymes, typical bread, altars, etc.</p>', 'image'=>'static/img/events-primary/day-dead-gallery.jpg', 'thumbnail'=>'static/img/events-primary/day-dead-ces.jpg', 'thumbnailh'=>'static/img/events-primary/day-dead-ces-hover.jpg'),
   		'Children' =>array('titulo'=>'Children&#39;s Day','des'=>'<p>In past years we have celebrated this day by having a water day,
-															  trip to the cinema, the zoo and water park to name just a few.</p>', 'image'=>'static/img/events-primary/childres-day-gallery.jpg', 'thumbnail'=>'static/img/events-primary/childrens-day-ces.jpg', 'thumbnailh'=>'static/img/events-primary/childrens-day-ces-hover.jpg'),
+															  trip to the cinema, the zoo and water park to name just a few.</p>', 'image'=>'static/img/events-primary/kinder-childres-day-gallery.jpg', 'thumbnail'=>'static/img/events-primary/kinder-childrens-day-ces.jpg', 'thumbnailh'=>'static/img/events-primary/kinder-childrens-day-ces-hover.jpg'),
   		'Father' =>array('titulo'=>'Father&#39;s Day','des'=>'<p>This culminates through a soccer tournament and a marathon
 														  school for fathers only.</p>', 'image'=>'static/img/events-primary/fathers-day-gallery.jpg', 'thumbnail'=>'static/img/events-primary/fathers-day-ces.jpg', 'thumbnailh'=>'static/img/events-primary/fathers-day-ces-hover.jpg'),
   		
