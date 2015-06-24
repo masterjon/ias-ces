@@ -8,6 +8,7 @@ $sidebar=array(
     'recycle' => 'Recycle', 
     'health' => 'Health', 
     'community_service' => 'Community Service',
-    'values_program' => 'Values Program'
+    'values_program' => 'Values Program',
+    'sports' => 'Sports'
     );
  ?>
