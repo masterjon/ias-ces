@@ -44,8 +44,8 @@ Teachers and parents are welcome to check out books as well.</p><br>
 <h3>DONATIONS</h3>
 <p>In order to keep adding titles to our collection, donations are accepted.</p>',
 'teachers' => array(
-	    '0' => array('name' => 'Gisela Rangel','position' => 'Kinder/Primary Librarian','image' => 'static/img/primary-teachers/gisela-rangel-librarian-ces.jpg', 'link' => 'https://www.google.com/url?q=https%3A%2F%2Fmissalejandra.shutterfly.com%2F&sa=D&sntz=1&usg=AFQjCNFLvSx1XXZD8pu0chhzXFcmM1PLjA' ),
-	    '1' => array('name' => 'Laura Martinez','position' => 'Middel/Hihg School Librarian','image' => 'static/img/middle-high-teachers/MARTINEZ_CAPISTRAN.jpg', 'link' => '' )
+	    '0' => array('name' => 'Gisela Rangel','position' => 'Kinder/Primary Librarian','image' => 'static/img/primary-teachers/gisela-rangel-librarian-ces.jpg', 'link' => 'http://giselarangel.jimdo.com/' ),
+	    '1' => array('name' => 'Laura Martinez','position' => 'Middel/Hihg School Librarian','image' => 'static/img/middle-high-teachers/MARTINEZ_CAPISTRAN.jpg', 'link' => 'http://iascancunlibrary.weebly.com/index.html' )
     )
 );
 
